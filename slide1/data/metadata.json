@@ -1,0 +1,6075 @@
+{
+  "dataset_name": "Leprosy CosMx 6K -- cell type viewer -- CosMx 6K slide 1 (Leprosygroup11E)",
+  "storage_key": "Leprosy CosMx 6K -- cell type viewer",
+  "n_cells": 89450,
+  "n_celltypes": 9,
+  "cell_types": ["B cell", "Endothelial", "Fibroblast", "Keratinocyte", "Melanocyte", "Myeloid", "Proliferating", "Sebaceous gland", "T cell"],
+  "n_genes": 300,
+  "has_polygons": true,
+  "has_proteins": true,
+  "n_proteins": 5,
+  "score_cols": ["major_score", "subtype_score"],
+  "other_color": "#9A9A9A",
+  "bounds": {
+    "x_min": 4,
+    "x_max": 7085,
+    "y_min": -508,
+    "y_max": 16668.8
+  },
+  "celltype_col": "cell_type",
+  "schema": 2,
+  "payload_version": "20261019181822",
+  "annotations": {
+    "cell_type": {
+      "label": "Cell type (major -> subtype)",
+      "cell_types": ["Activated macrophage (NR1H3/MMP9)", "Activated/early-response T (NR4A/EGR)", "B cell (naive/memory)", "Basal keratinocyte", "CD4 T effector/memory (Th1/Th17)", "CD4 T naive/central-memory", "CD8 T cytotoxic", "cDC1", "cDC2", "Classical monocyte", "Cornified/granular keratinocyte (LCE+)", "Differentiated/follicular keratinocyte (PTGS1+)", "Eccrine duct", "Eccrine gland (secretory/myoepithelial)", "Eccrine secretory coil / ionocyte", "Eccrine/apocrine secretory (DCD+)", "Endothelial", "Fibroblast (transitional/low-specificity)", "Foamy/lipid-laden macrophage (APOE/CCL18)", "Granular keratinocyte (barrier/lipid)", "IFN-activated macrophage (M1)", "IFN/cytokine inflammatory fibroblast (CCL8/IL6)", "Inflammatory/activated fibroblast (PTX3+)", "ISG+ basal/inflammatory keratinocyte", "Langerhans cell", "Lipid-associated macrophage (FABP4/LPL)", "M2 perivascular/resident macrophage (FOLR2/F13A1)", "M2 resident macrophage (STAB1/CD163)", "Melanocyte", "mregDC (mature migratory DC)", "Multinucleated giant cell (osteoclast-like)", "Myofibroblast / pro-fibrotic (POSTN/FN1)", "NK / gamma-delta T", "Papillary/universal fibroblast (CD34/MFAP5)", "Plasma cell", "Plasmacytoid DC (pDC)", "Pro-inflammatory perivascular fibroblast (CXCL9/CCL19)", "Proliferating", "Proliferating fibroblast", "Proliferating keratinocyte", "Regulatory T (Treg)", "Reticular fibroblast", "Sebaceous gland", "Sebocyte (sebaceous gland)", "Secretory-papillary fibroblast (WNT/NKD2+)", "Spinous keratinocyte", "SPP1+ macrophage (hypoxic/glycolytic)", "Suprabasal/activated keratinocyte (KRT6/16/17)", "Tissue-resident memory CD8 T (ZNF683+)"],
+      "n_celltypes": 49,
+      "colors": {
+        "Activated macrophage (NR1H3/MMP9)": "#CC79A7",
+        "Activated/early-response T (NR4A/EGR)": "#F0E442",
+        "B cell (naive/memory)": "#E69F00",
+        "Basal keratinocyte": "#E69F00",
+        "CD4 T effector/memory (Th1/Th17)": "#E69F00",
+        "CD4 T naive/central-memory": "#0072B2",
+        "CD8 T cytotoxic": "#56B4E9",
+        "cDC1": "#00468B",
+        "cDC2": "#F0E442",
+        "Classical monocyte": "#0072B2",
+        "Cornified/granular keratinocyte (LCE+)": "#00468B",
+        "Differentiated/follicular keratinocyte (PTGS1+)": "#0072B2",
+        "Eccrine duct": "#FDC086",
+        "Eccrine gland (secretory/myoepithelial)": "#CC79A7",
+        "Eccrine secretory coil / ionocyte": "#D55E00",
+        "Eccrine/apocrine secretory (DCD+)": "#009E73",
+        "Endothelial": "#56B4E9",
+        "Fibroblast (transitional/low-specificity)": "#E69F00",
+        "Foamy/lipid-laden macrophage (APOE/CCL18)": "#882255",
+        "Granular keratinocyte (barrier/lipid)": "#AD002A",
+        "IFN-activated macrophage (M1)": "#009E73",
+        "IFN/cytokine inflammatory fibroblast (CCL8/IL6)": "#CC79A7",
+        "Inflammatory/activated fibroblast (PTX3+)": "#009E73",
+        "ISG+ basal/inflammatory keratinocyte": "#56B4E9",
+        "Langerhans cell": "#91D1C2",
+        "Lipid-associated macrophage (FABP4/LPL)": "#8C564B",
+        "M2 perivascular/resident macrophage (FOLR2/F13A1)": "#E69F00",
+        "M2 resident macrophage (STAB1/CD163)": "#D55E00",
+        "Melanocyte": "#882255",
+        "mregDC (mature migratory DC)": "#FDC086",
+        "Multinucleated giant cell (osteoclast-like)": "#56B4E9",
+        "Myofibroblast / pro-fibrotic (POSTN/FN1)": "#882255",
+        "NK / gamma-delta T": "#009E73",
+        "Papillary/universal fibroblast (CD34/MFAP5)": "#0072B2",
+        "Plasma cell": "#0072B2",
+        "Plasmacytoid DC (pDC)": "#79AF97",
+        "Pro-inflammatory perivascular fibroblast (CXCL9/CCL19)": "#56B4E9",
+        "Proliferating": "#F0E442",
+        "Proliferating fibroblast": "#AD002A",
+        "Proliferating keratinocyte": "#F0E442",
+        "Regulatory T (Treg)": "#D55E00",
+        "Reticular fibroblast": "#D55E00",
+        "Sebaceous gland": "#AD002A",
+        "Sebocyte (sebaceous gland)": "#79AF97",
+        "Secretory-papillary fibroblast (WNT/NKD2+)": "#F0E442",
+        "Spinous keratinocyte": "#882255",
+        "SPP1+ macrophage (hypoxic/glycolytic)": "#AD002A",
+        "Suprabasal/activated keratinocyte (KRT6/16/17)": "#91D1C2",
+        "Tissue-resident memory CD8 T (ZNF683+)": "#CC79A7",
+        "Myeloid": "#E69F00",
+        "T cell": "#0072B2",
+        "Keratinocyte": "#CC79A7",
+        "Fibroblast": "#009E73",
+        "B cell": "#D55E00"
+      },
+      "parents": ["B cell", "Endothelial", "Fibroblast", "Keratinocyte", "Melanocyte", "Myeloid", "Proliferating", "Sebaceous gland", "T cell"],
+      "parent_of": [5, 8, 0, 3, 8, 8, 8, 5, 5, 5, 3, 3, 3, 3, 3, 3, 1, 2, 5, 3, 5, 2, 2, 3, 5, 5, 5, 5, 4, 5, 5, 2, 8, 2, 0, 5, 2, 6, 2, 3, 8, 2, 7, 3, 2, 3, 5, 3, 8],
+      "n_parents": 9,
+      "parent_label": "Major type"
+    },
+    "major": {
+      "label": "Major type",
+      "cell_types": ["B cell", "Endothelial", "Fibroblast", "Keratinocyte", "Melanocyte", "Myeloid", "Proliferating", "Sebaceous gland", "T cell"],
+      "n_celltypes": 9,
+      "colors": {
+        "B cell": "#D55E00",
+        "Endothelial": "#56B4E9",
+        "Fibroblast": "#009E73",
+        "Keratinocyte": "#CC79A7",
+        "Melanocyte": "#882255",
+        "Myeloid": "#E69F00",
+        "Proliferating": "#F0E442",
+        "Sebaceous gland": "#AD002A",
+        "T cell": "#0072B2"
+      }
+    },
+    "patient": {
+      "label": "Patient",
+      "cell_types": ["BT6", "LL6", "RR7"],
+      "n_celltypes": 3,
+      "colors": {
+        "BT6": "#0072B2",
+        "LL6": "#56B4E9",
+        "RR7": "#009E73"
+      }
+    }
+  },
+  "label_annotations": {
+    "Activated macrophage (NR1H3/MMP9)": {
+      "annotation": "transferred label",
+      "n_cells": 1259,
+      "markers": [
+        {
+          "gene": "CHI3L1",
+          "lfc": 2.01,
+          "pct1": 0.439,
+          "pct2": 0.181
+        },
+        {
+          "gene": "MMP9",
+          "lfc": 1.89,
+          "pct1": 0.503,
+          "pct2": 0.232
+        },
+        {
+          "gene": "APOC1",
+          "lfc": 1.88,
+          "pct1": 0.424,
+          "pct2": 0.225
+        },
+        {
+          "gene": "APOE",
+          "lfc": 1.86,
+          "pct1": 0.824,
+          "pct2": 0.402
+        },
+        {
+          "gene": "LYZ",
+          "lfc": 1.84,
+          "pct1": 0.921,
+          "pct2": 0.474
+        },
+        {
+          "gene": "CHIT1",
+          "lfc": 1.79,
+          "pct1": 0.477,
+          "pct2": 0.202
+        },
+        {
+          "gene": "CTSD",
+          "lfc": 1.78,
+          "pct1": 0.752,
+          "pct2": 0.399
+        },
+        {
+          "gene": "ACP5",
+          "lfc": 1.76,
+          "pct1": 0.272,
+          "pct2": 0.159
+        },
+        {
+          "gene": "LIPA",
+          "lfc": 1.76,
+          "pct1": 0.361,
+          "pct2": 0.202
+        },
+        {
+          "gene": "GPNMB",
+          "lfc": 1.72,
+          "pct1": 0.458,
+          "pct2": 0.249
+        },
+        {
+          "gene": "C1QB",
+          "lfc": 1.69,
+          "pct1": 0.422,
+          "pct2": 0.238
+        },
+        {
+          "gene": "CTSB",
+          "lfc": 1.67,
+          "pct1": 0.85,
+          "pct2": 0.477
+        },
+        {
+          "gene": "LILRB4",
+          "lfc": 1.64,
+          "pct1": 0.262,
+          "pct2": 0.16
+        },
+        {
+          "gene": "PSAP",
+          "lfc": 1.59,
+          "pct1": 0.899,
+          "pct2": 0.542
+        },
+        {
+          "gene": "CTSS",
+          "lfc": 1.59,
+          "pct1": 0.605,
+          "pct2": 0.345
+        },
+        {
+          "gene": "CYP27A1",
+          "lfc": 1.59,
+          "pct1": 0.247,
+          "pct2": 0.162
+        },
+        {
+          "gene": "CD68",
+          "lfc": 1.58,
+          "pct1": 0.438,
+          "pct2": 0.26
+        },
+        {
+          "gene": "NPL",
+          "lfc": 1.56,
+          "pct1": 0.14,
+          "pct2": 0.101
+        },
+        {
+          "gene": "CYBB",
+          "lfc": 1.54,
+          "pct1": 0.273,
+          "pct2": 0.185
+        },
+        {
+          "gene": "MSR1",
+          "lfc": 1.54,
+          "pct1": 0.107,
+          "pct2": 0.082
+        }
+      ]
+    },
+    "Activated/early-response T (NR4A/EGR)": {
+      "annotation": "transferred label",
+      "n_cells": 31,
+      "markers": [
+        {
+          "gene": "CCL1",
+          "lfc": 5.7,
+          "pct1": 0.134,
+          "pct2": 0.02
+        },
+        {
+          "gene": "CSF2",
+          "lfc": 4.81,
+          "pct1": 0.339,
+          "pct2": 0.03
+        },
+        {
+          "gene": "IFNG",
+          "lfc": 4.55,
+          "pct1": 0.304,
+          "pct2": 0.035
+        },
+        {
+          "gene": "TNF",
+          "lfc": 4.13,
+          "pct1": 0.402,
+          "pct2": 0.055
+        },
+        {
+          "gene": "TNFSF14",
+          "lfc": 3.8,
+          "pct1": 0.268,
+          "pct2": 0.039
+        },
+        {
+          "gene": "CCL4",
+          "lfc": 3.73,
+          "pct1": 0.482,
+          "pct2": 0.088
+        },
+        {
+          "gene": "EGR2",
+          "lfc": 3.69,
+          "pct1": 0.357,
+          "pct2": 0.062
+        },
+        {
+          "gene": "GNLY",
+          "lfc": 3.37,
+          "pct1": 0.366,
+          "pct2": 0.062
+        },
+        {
+          "gene": "CD69",
+          "lfc": 3.17,
+          "pct1": 0.214,
+          "pct2": 0.051
+        },
+        {
+          "gene": "EGR1",
+          "lfc": 3.15,
+          "pct1": 0.241,
+          "pct2": 0.061
+        },
+        {
+          "gene": "CCL3",
+          "lfc": 3.02,
+          "pct1": 0.295,
+          "pct2": 0.072
+        },
+        {
+          "gene": "CD200",
+          "lfc": 2.84,
+          "pct1": 0.134,
+          "pct2": 0.03
+        },
+        {
+          "gene": "CD6",
+          "lfc": 2.68,
+          "pct1": 0.268,
+          "pct2": 0.069
+        },
+        {
+          "gene": "IL2RA",
+          "lfc": 2.48,
+          "pct1": 0.152,
+          "pct2": 0.044
+        },
+        {
+          "gene": "TRBC1",
+          "lfc": 2.41,
+          "pct1": 0.304,
+          "pct2": 0.099
+        },
+        {
+          "gene": "CD3D",
+          "lfc": 2.35,
+          "pct1": 0.33,
+          "pct2": 0.101
+        },
+        {
+          "gene": "LTB",
+          "lfc": 2.32,
+          "pct1": 0.473,
+          "pct2": 0.173
+        },
+        {
+          "gene": "BTG2",
+          "lfc": 2.27,
+          "pct1": 0.277,
+          "pct2": 0.13
+        },
+        {
+          "gene": "NKG7",
+          "lfc": 2.26,
+          "pct1": 0.295,
+          "pct2": 0.08
+        },
+        {
+          "gene": "PTPN7",
+          "lfc": 2.26,
+          "pct1": 0.223,
+          "pct2": 0.073
+        }
+      ]
+    },
+    "B cell (naive/memory)": {
+      "annotation": "transferred label",
+      "n_cells": 2404,
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "lfc": 3.89,
+          "pct1": 0.316,
+          "pct2": 0.027
+        },
+        {
+          "gene": "IGHM",
+          "lfc": 3.67,
+          "pct1": 0.446,
+          "pct2": 0.047
+        },
+        {
+          "gene": "IGHV1-69",
+          "lfc": 3.12,
+          "pct1": 0.272,
+          "pct2": 0.038
+        },
+        {
+          "gene": "CD79B",
+          "lfc": 3.09,
+          "pct1": 0.329,
+          "pct2": 0.042
+        },
+        {
+          "gene": "IGHA1",
+          "lfc": 3.07,
+          "pct1": 0.539,
+          "pct2": 0.077
+        },
+        {
+          "gene": "IGKC",
+          "lfc": 3.03,
+          "pct1": 0.808,
+          "pct2": 0.157
+        },
+        {
+          "gene": "CD79A",
+          "lfc": 2.99,
+          "pct1": 0.363,
+          "pct2": 0.042
+        },
+        {
+          "gene": "BLK",
+          "lfc": 2.79,
+          "pct1": 0.176,
+          "pct2": 0.026
+        },
+        {
+          "gene": "IGLC1/2",
+          "lfc": 2.77,
+          "pct1": 0.483,
+          "pct2": 0.09
+        },
+        {
+          "gene": "IGHG1/2",
+          "lfc": 2.75,
+          "pct1": 0.64,
+          "pct2": 0.14
+        },
+        {
+          "gene": "IGLL5",
+          "lfc": 2.75,
+          "pct1": 0.496,
+          "pct2": 0.103
+        },
+        {
+          "gene": "JCHAIN",
+          "lfc": 2.48,
+          "pct1": 0.246,
+          "pct2": 0.046
+        },
+        {
+          "gene": "TNFRSF13C",
+          "lfc": 2.36,
+          "pct1": 0.171,
+          "pct2": 0.032
+        },
+        {
+          "gene": "POU2AF1",
+          "lfc": 2.35,
+          "pct1": 0.166,
+          "pct2": 0.032
+        },
+        {
+          "gene": "CD22",
+          "lfc": 2.31,
+          "pct1": 0.163,
+          "pct2": 0.033
+        },
+        {
+          "gene": "IGHD",
+          "lfc": 2.28,
+          "pct1": 0.101,
+          "pct2": 0.018
+        },
+        {
+          "gene": "CD37",
+          "lfc": 2.26,
+          "pct1": 0.431,
+          "pct2": 0.137
+        },
+        {
+          "gene": "BANK1",
+          "lfc": 2.25,
+          "pct1": 0.158,
+          "pct2": 0.031
+        },
+        {
+          "gene": "IGKV4-1",
+          "lfc": 2.25,
+          "pct1": 0.112,
+          "pct2": 0.034
+        },
+        {
+          "gene": "PAX5",
+          "lfc": 2.23,
+          "pct1": 0.16,
+          "pct2": 0.031
+        }
+      ]
+    },
+    "Basal keratinocyte": {
+      "annotation": "transferred label",
+      "n_cells": 807,
+      "markers": [
+        {
+          "gene": "COL17A1",
+          "lfc": 3.91,
+          "pct1": 0.366,
+          "pct2": 0.055
+        },
+        {
+          "gene": "LAMB4",
+          "lfc": 3.52,
+          "pct1": 0.148,
+          "pct2": 0.032
+        },
+        {
+          "gene": "COL7A1",
+          "lfc": 3.45,
+          "pct1": 0.242,
+          "pct2": 0.053
+        },
+        {
+          "gene": "KRT5",
+          "lfc": 3.35,
+          "pct1": 0.566,
+          "pct2": 0.111
+        },
+        {
+          "gene": "KRT15",
+          "lfc": 3.34,
+          "pct1": 0.318,
+          "pct2": 0.075
+        },
+        {
+          "gene": "KRT14",
+          "lfc": 3.33,
+          "pct1": 0.611,
+          "pct2": 0.142
+        },
+        {
+          "gene": "FGFR3",
+          "lfc": 3.04,
+          "pct1": 0.284,
+          "pct2": 0.08
+        },
+        {
+          "gene": "DST",
+          "lfc": 2.98,
+          "pct1": 0.182,
+          "pct2": 0.063
+        },
+        {
+          "gene": "WNT4",
+          "lfc": 2.82,
+          "pct1": 0.148,
+          "pct2": 0.047
+        },
+        {
+          "gene": "WNT3",
+          "lfc": 2.78,
+          "pct1": 0.106,
+          "pct2": 0.035
+        },
+        {
+          "gene": "S100A2",
+          "lfc": 2.7,
+          "pct1": 0.151,
+          "pct2": 0.053
+        },
+        {
+          "gene": "ITGA3",
+          "lfc": 2.6,
+          "pct1": 0.117,
+          "pct2": 0.046
+        },
+        {
+          "gene": "ITGB4",
+          "lfc": 2.55,
+          "pct1": 0.157,
+          "pct2": 0.06
+        },
+        {
+          "gene": "CCL27",
+          "lfc": 2.54,
+          "pct1": 0.116,
+          "pct2": 0.044
+        },
+        {
+          "gene": "IL20RB",
+          "lfc": 2.43,
+          "pct1": 0.11,
+          "pct2": 0.047
+        },
+        {
+          "gene": "KRT17",
+          "lfc": 2.39,
+          "pct1": 0.21,
+          "pct2": 0.069
+        },
+        {
+          "gene": "LAMA5",
+          "lfc": 2.3,
+          "pct1": 0.118,
+          "pct2": 0.049
+        },
+        {
+          "gene": "AQP3",
+          "lfc": 2.15,
+          "pct1": 0.243,
+          "pct2": 0.099
+        },
+        {
+          "gene": "SLC2A1",
+          "lfc": 2.06,
+          "pct1": 0.114,
+          "pct2": 0.064
+        },
+        {
+          "gene": "DSC3",
+          "lfc": 2,
+          "pct1": 0.196,
+          "pct2": 0.084
+        }
+      ]
+    },
+    "CD4 T effector/memory (Th1/Th17)": {
+      "annotation": "transferred label",
+      "n_cells": 5389,
+      "markers": [
+        {
+          "gene": "GZMA",
+          "lfc": 1.98,
+          "pct1": 0.12,
+          "pct2": 0.066
+        },
+        {
+          "gene": "CD6",
+          "lfc": 1.97,
+          "pct1": 0.111,
+          "pct2": 0.068
+        },
+        {
+          "gene": "SPOCK2",
+          "lfc": 1.96,
+          "pct1": 0.153,
+          "pct2": 0.101
+        },
+        {
+          "gene": "GNLY",
+          "lfc": 1.96,
+          "pct1": 0.101,
+          "pct2": 0.061
+        },
+        {
+          "gene": "CD3D",
+          "lfc": 1.91,
+          "pct1": 0.153,
+          "pct2": 0.1
+        },
+        {
+          "gene": "CD2",
+          "lfc": 1.74,
+          "pct1": 0.168,
+          "pct2": 0.108
+        },
+        {
+          "gene": "NKG7",
+          "lfc": 1.73,
+          "pct1": 0.126,
+          "pct2": 0.079
+        },
+        {
+          "gene": "TRAC",
+          "lfc": 1.72,
+          "pct1": 0.162,
+          "pct2": 0.108
+        },
+        {
+          "gene": "TBC1D10C",
+          "lfc": 1.7,
+          "pct1": 0.136,
+          "pct2": 0.104
+        },
+        {
+          "gene": "CD3E",
+          "lfc": 1.63,
+          "pct1": 0.112,
+          "pct2": 0.075
+        },
+        {
+          "gene": "CCL5",
+          "lfc": 1.62,
+          "pct1": 0.215,
+          "pct2": 0.164
+        },
+        {
+          "gene": "TRBC1",
+          "lfc": 1.57,
+          "pct1": 0.123,
+          "pct2": 0.098
+        },
+        {
+          "gene": "TRBC2",
+          "lfc": 1.46,
+          "pct1": 0.156,
+          "pct2": 0.125
+        },
+        {
+          "gene": "LTB",
+          "lfc": 1.45,
+          "pct1": 0.22,
+          "pct2": 0.172
+        },
+        {
+          "gene": "IL32",
+          "lfc": 1.28,
+          "pct1": 0.246,
+          "pct2": 0.231
+        },
+        {
+          "gene": "PTPRCAP",
+          "lfc": 1.23,
+          "pct1": 0.122,
+          "pct2": 0.11
+        },
+        {
+          "gene": "CORO1A",
+          "lfc": 1.22,
+          "pct1": 0.24,
+          "pct2": 0.211
+        }
+      ]
+    },
+    "CD4 T naive/central-memory": {
+      "annotation": "transferred label",
+      "n_cells": 4343,
+      "markers": [
+        {
+          "gene": "IL7R",
+          "lfc": 2.4,
+          "pct1": 0.24,
+          "pct2": 0.072
+        },
+        {
+          "gene": "TCF7",
+          "lfc": 2.2,
+          "pct1": 0.133,
+          "pct2": 0.042
+        },
+        {
+          "gene": "CD6",
+          "lfc": 2.14,
+          "pct1": 0.202,
+          "pct2": 0.065
+        },
+        {
+          "gene": "CD3E",
+          "lfc": 2.06,
+          "pct1": 0.217,
+          "pct2": 0.071
+        },
+        {
+          "gene": "SPOCK2",
+          "lfc": 2.01,
+          "pct1": 0.288,
+          "pct2": 0.097
+        },
+        {
+          "gene": "NELL2",
+          "lfc": 2.01,
+          "pct1": 0.108,
+          "pct2": 0.041
+        },
+        {
+          "gene": "CD2",
+          "lfc": 2,
+          "pct1": 0.294,
+          "pct2": 0.105
+        },
+        {
+          "gene": "CD3D",
+          "lfc": 1.97,
+          "pct1": 0.256,
+          "pct2": 0.097
+        },
+        {
+          "gene": "CD247",
+          "lfc": 1.97,
+          "pct1": 0.178,
+          "pct2": 0.063
+        },
+        {
+          "gene": "TRBC2",
+          "lfc": 1.95,
+          "pct1": 0.327,
+          "pct2": 0.12
+        },
+        {
+          "gene": "GZMA",
+          "lfc": 1.95,
+          "pct1": 0.178,
+          "pct2": 0.064
+        },
+        {
+          "gene": "TRAC",
+          "lfc": 1.9,
+          "pct1": 0.282,
+          "pct2": 0.104
+        },
+        {
+          "gene": "TRBC1",
+          "lfc": 1.86,
+          "pct1": 0.228,
+          "pct2": 0.095
+        },
+        {
+          "gene": "TBC1D10C",
+          "lfc": 1.85,
+          "pct1": 0.265,
+          "pct2": 0.1
+        },
+        {
+          "gene": "LAT",
+          "lfc": 1.81,
+          "pct1": 0.114,
+          "pct2": 0.048
+        },
+        {
+          "gene": "LCK",
+          "lfc": 1.81,
+          "pct1": 0.153,
+          "pct2": 0.062
+        },
+        {
+          "gene": "ITK",
+          "lfc": 1.79,
+          "pct1": 0.108,
+          "pct2": 0.041
+        },
+        {
+          "gene": "LTB",
+          "lfc": 1.78,
+          "pct1": 0.394,
+          "pct2": 0.167
+        },
+        {
+          "gene": "CD3G",
+          "lfc": 1.77,
+          "pct1": 0.1,
+          "pct2": 0.038
+        },
+        {
+          "gene": "CLEC2D",
+          "lfc": 1.76,
+          "pct1": 0.186,
+          "pct2": 0.081
+        }
+      ]
+    },
+    "CD8 T cytotoxic": {
+      "annotation": "transferred label",
+      "n_cells": 1293,
+      "markers": [
+        {
+          "gene": "GZMK",
+          "lfc": 3.35,
+          "pct1": 0.315,
+          "pct2": 0.052
+        },
+        {
+          "gene": "NKG7",
+          "lfc": 3.33,
+          "pct1": 0.396,
+          "pct2": 0.07
+        },
+        {
+          "gene": "GZMA",
+          "lfc": 2.66,
+          "pct1": 0.276,
+          "pct2": 0.061
+        },
+        {
+          "gene": "CCL5",
+          "lfc": 2.56,
+          "pct1": 0.489,
+          "pct2": 0.155
+        },
+        {
+          "gene": "KLRG1",
+          "lfc": 2.55,
+          "pct1": 0.137,
+          "pct2": 0.031
+        },
+        {
+          "gene": "GZMH",
+          "lfc": 2.48,
+          "pct1": 0.128,
+          "pct2": 0.036
+        },
+        {
+          "gene": "SAMD3",
+          "lfc": 2.41,
+          "pct1": 0.144,
+          "pct2": 0.032
+        },
+        {
+          "gene": "TIGIT",
+          "lfc": 2.4,
+          "pct1": 0.178,
+          "pct2": 0.051
+        },
+        {
+          "gene": "CTSW",
+          "lfc": 2.34,
+          "pct1": 0.135,
+          "pct2": 0.036
+        },
+        {
+          "gene": "KLRK1",
+          "lfc": 2.28,
+          "pct1": 0.142,
+          "pct2": 0.036
+        },
+        {
+          "gene": "CD3E",
+          "lfc": 2.25,
+          "pct1": 0.25,
+          "pct2": 0.07
+        },
+        {
+          "gene": "SYNE1",
+          "lfc": 2.24,
+          "pct1": 0.156,
+          "pct2": 0.055
+        },
+        {
+          "gene": "SH2D1A",
+          "lfc": 2.13,
+          "pct1": 0.133,
+          "pct2": 0.037
+        },
+        {
+          "gene": "CD247",
+          "lfc": 2.12,
+          "pct1": 0.217,
+          "pct2": 0.062
+        },
+        {
+          "gene": "IL2RB",
+          "lfc": 2.1,
+          "pct1": 0.136,
+          "pct2": 0.04
+        },
+        {
+          "gene": "CST7",
+          "lfc": 2.08,
+          "pct1": 0.216,
+          "pct2": 0.069
+        },
+        {
+          "gene": "CD3G",
+          "lfc": 2.08,
+          "pct1": 0.12,
+          "pct2": 0.037
+        },
+        {
+          "gene": "CD2",
+          "lfc": 2.07,
+          "pct1": 0.326,
+          "pct2": 0.104
+        },
+        {
+          "gene": "CD3D",
+          "lfc": 2.07,
+          "pct1": 0.289,
+          "pct2": 0.096
+        },
+        {
+          "gene": "TRBC2",
+          "lfc": 2,
+          "pct1": 0.338,
+          "pct2": 0.119
+        }
+      ]
+    },
+    "Classical monocyte": {
+      "annotation": "transferred label",
+      "n_cells": 6487,
+      "markers": [
+        {
+          "gene": "LYZ",
+          "lfc": 0.59,
+          "pct1": 0.5,
+          "pct2": 0.487
+        }
+      ]
+    },
+    "Cornified/granular keratinocyte (LCE+)": {
+      "annotation": "transferred label",
+      "n_cells": 120,
+      "markers": [
+        {
+          "gene": "FLG",
+          "lfc": 6.88,
+          "pct1": 0.844,
+          "pct2": 0.047
+        },
+        {
+          "gene": "AZGP1",
+          "lfc": 6.22,
+          "pct1": 0.631,
+          "pct2": 0.044
+        },
+        {
+          "gene": "CALML5",
+          "lfc": 5.84,
+          "pct1": 0.847,
+          "pct2": 0.075
+        },
+        {
+          "gene": "S100A7",
+          "lfc": 5.73,
+          "pct1": 0.51,
+          "pct2": 0.024
+        },
+        {
+          "gene": "HOPX",
+          "lfc": 5.23,
+          "pct1": 0.744,
+          "pct2": 0.059
+        },
+        {
+          "gene": "KRT80",
+          "lfc": 4.84,
+          "pct1": 0.611,
+          "pct2": 0.03
+        },
+        {
+          "gene": "SPRR2A",
+          "lfc": 4.82,
+          "pct1": 0.312,
+          "pct2": 0.026
+        },
+        {
+          "gene": "SPINK5",
+          "lfc": 4.65,
+          "pct1": 0.749,
+          "pct2": 0.05
+        },
+        {
+          "gene": "KRT23",
+          "lfc": 4.56,
+          "pct1": 0.407,
+          "pct2": 0.02
+        },
+        {
+          "gene": "S100A8",
+          "lfc": 4.48,
+          "pct1": 0.369,
+          "pct2": 0.077
+        },
+        {
+          "gene": "PI3",
+          "lfc": 4.45,
+          "pct1": 0.302,
+          "pct2": 0.023
+        },
+        {
+          "gene": "CSTA",
+          "lfc": 4.43,
+          "pct1": 0.563,
+          "pct2": 0.043
+        },
+        {
+          "gene": "CTNNBIP1",
+          "lfc": 4.4,
+          "pct1": 0.766,
+          "pct2": 0.088
+        },
+        {
+          "gene": "S100A9",
+          "lfc": 4.4,
+          "pct1": 0.505,
+          "pct2": 0.086
+        },
+        {
+          "gene": "BLMH",
+          "lfc": 4.38,
+          "pct1": 0.55,
+          "pct2": 0.04
+        },
+        {
+          "gene": "TACSTD2",
+          "lfc": 4.01,
+          "pct1": 0.638,
+          "pct2": 0.076
+        },
+        {
+          "gene": "NPR2",
+          "lfc": 3.9,
+          "pct1": 0.166,
+          "pct2": 0.033
+        },
+        {
+          "gene": "ARG1",
+          "lfc": 3.85,
+          "pct1": 0.367,
+          "pct2": 0.028
+        },
+        {
+          "gene": "CENPT",
+          "lfc": 3.8,
+          "pct1": 0.359,
+          "pct2": 0.044
+        },
+        {
+          "gene": "SMPD3",
+          "lfc": 3.77,
+          "pct1": 0.309,
+          "pct2": 0.024
+        }
+      ]
+    },
+    "Differentiated/follicular keratinocyte (PTGS1+)": {
+      "annotation": "transferred label",
+      "n_cells": 1293,
+      "markers": [
+        {
+          "gene": "KRT10",
+          "lfc": 3.47,
+          "pct1": 0.573,
+          "pct2": 0.087
+        },
+        {
+          "gene": "KRT1",
+          "lfc": 3.46,
+          "pct1": 0.533,
+          "pct2": 0.09
+        },
+        {
+          "gene": "LY6D",
+          "lfc": 3.18,
+          "pct1": 0.302,
+          "pct2": 0.07
+        },
+        {
+          "gene": "PERP",
+          "lfc": 2.84,
+          "pct1": 0.372,
+          "pct2": 0.108
+        },
+        {
+          "gene": "PLA2G4F",
+          "lfc": 2.83,
+          "pct1": 0.136,
+          "pct2": 0.041
+        },
+        {
+          "gene": "DSC3",
+          "lfc": 2.82,
+          "pct1": 0.276,
+          "pct2": 0.082
+        },
+        {
+          "gene": "LRP4",
+          "lfc": 2.8,
+          "pct1": 0.111,
+          "pct2": 0.034
+        },
+        {
+          "gene": "KRT4",
+          "lfc": 2.76,
+          "pct1": 0.169,
+          "pct2": 0.049
+        },
+        {
+          "gene": "GJA1",
+          "lfc": 2.75,
+          "pct1": 0.162,
+          "pct2": 0.063
+        },
+        {
+          "gene": "FGFR3",
+          "lfc": 2.71,
+          "pct1": 0.246,
+          "pct2": 0.081
+        },
+        {
+          "gene": "AQP3",
+          "lfc": 2.67,
+          "pct1": 0.274,
+          "pct2": 0.098
+        },
+        {
+          "gene": "DSP",
+          "lfc": 2.66,
+          "pct1": 0.261,
+          "pct2": 0.093
+        },
+        {
+          "gene": "LYPD3",
+          "lfc": 2.6,
+          "pct1": 0.146,
+          "pct2": 0.055
+        },
+        {
+          "gene": "NECTIN1",
+          "lfc": 2.58,
+          "pct1": 0.136,
+          "pct2": 0.061
+        },
+        {
+          "gene": "KLF5",
+          "lfc": 2.4,
+          "pct1": 0.148,
+          "pct2": 0.066
+        },
+        {
+          "gene": "SDC1",
+          "lfc": 2.38,
+          "pct1": 0.16,
+          "pct2": 0.075
+        },
+        {
+          "gene": "SFN",
+          "lfc": 2.22,
+          "pct1": 0.183,
+          "pct2": 0.078
+        },
+        {
+          "gene": "NOTCH3",
+          "lfc": 2.09,
+          "pct1": 0.133,
+          "pct2": 0.071
+        },
+        {
+          "gene": "JUP",
+          "lfc": 2.07,
+          "pct1": 0.167,
+          "pct2": 0.089
+        },
+        {
+          "gene": "KRT16",
+          "lfc": 2.05,
+          "pct1": 0.16,
+          "pct2": 0.08
+        }
+      ]
+    },
+    "Eccrine duct": {
+      "annotation": "transferred label",
+      "n_cells": 131,
+      "markers": [
+        {
+          "gene": "MMP7",
+          "lfc": 4.39,
+          "pct1": 0.617,
+          "pct2": 0.048
+        },
+        {
+          "gene": "FOXC1",
+          "lfc": 3.75,
+          "pct1": 0.295,
+          "pct2": 0.022
+        },
+        {
+          "gene": "CCL28",
+          "lfc": 3.5,
+          "pct1": 0.309,
+          "pct2": 0.032
+        },
+        {
+          "gene": "KRT19",
+          "lfc": 3.49,
+          "pct1": 0.409,
+          "pct2": 0.047
+        },
+        {
+          "gene": "TBX3",
+          "lfc": 3.28,
+          "pct1": 0.317,
+          "pct2": 0.035
+        },
+        {
+          "gene": "S100P",
+          "lfc": 3.2,
+          "pct1": 0.311,
+          "pct2": 0.035
+        },
+        {
+          "gene": "CALML5",
+          "lfc": 2.98,
+          "pct1": 0.629,
+          "pct2": 0.075
+        },
+        {
+          "gene": "INHBA",
+          "lfc": 2.93,
+          "pct1": 0.162,
+          "pct2": 0.026
+        },
+        {
+          "gene": "RSPO1",
+          "lfc": 2.84,
+          "pct1": 0.267,
+          "pct2": 0.04
+        },
+        {
+          "gene": "MIA",
+          "lfc": 2.83,
+          "pct1": 0.333,
+          "pct2": 0.046
+        },
+        {
+          "gene": "ATP1A1",
+          "lfc": 2.79,
+          "pct1": 0.571,
+          "pct2": 0.128
+        },
+        {
+          "gene": "WNT11",
+          "lfc": 2.79,
+          "pct1": 0.194,
+          "pct2": 0.035
+        },
+        {
+          "gene": "ELF3",
+          "lfc": 2.78,
+          "pct1": 0.275,
+          "pct2": 0.04
+        },
+        {
+          "gene": "KRT6B",
+          "lfc": 2.77,
+          "pct1": 0.244,
+          "pct2": 0.03
+        },
+        {
+          "gene": "KRT14",
+          "lfc": 2.75,
+          "pct1": 0.776,
+          "pct2": 0.151
+        },
+        {
+          "gene": "ATP1B3",
+          "lfc": 2.74,
+          "pct1": 0.555,
+          "pct2": 0.129
+        },
+        {
+          "gene": "KLF5",
+          "lfc": 2.71,
+          "pct1": 0.413,
+          "pct2": 0.066
+        },
+        {
+          "gene": "ADIRF",
+          "lfc": 2.7,
+          "pct1": 0.485,
+          "pct2": 0.084
+        },
+        {
+          "gene": "ITGB8",
+          "lfc": 2.61,
+          "pct1": 0.301,
+          "pct2": 0.045
+        },
+        {
+          "gene": "CRABP2",
+          "lfc": 2.6,
+          "pct1": 0.301,
+          "pct2": 0.051
+        }
+      ]
+    },
+    "Eccrine gland (secretory/myoepithelial)": {
+      "annotation": "transferred label",
+      "n_cells": 383,
+      "markers": [
+        {
+          "gene": "DEFB1",
+          "lfc": 2.53,
+          "pct1": 0.173,
+          "pct2": 0.04
+        },
+        {
+          "gene": "NAV2",
+          "lfc": 2.44,
+          "pct1": 0.105,
+          "pct2": 0.029
+        },
+        {
+          "gene": "LAMB3",
+          "lfc": 2.25,
+          "pct1": 0.149,
+          "pct2": 0.036
+        },
+        {
+          "gene": "SEMA3C",
+          "lfc": 2.08,
+          "pct1": 0.219,
+          "pct2": 0.07
+        },
+        {
+          "gene": "ITGB4",
+          "lfc": 1.91,
+          "pct1": 0.192,
+          "pct2": 0.059
+        },
+        {
+          "gene": "TBX3",
+          "lfc": 1.8,
+          "pct1": 0.107,
+          "pct2": 0.035
+        },
+        {
+          "gene": "ATP1B1",
+          "lfc": 1.78,
+          "pct1": 0.211,
+          "pct2": 0.094
+        },
+        {
+          "gene": "ATP1B3",
+          "lfc": 1.75,
+          "pct1": 0.259,
+          "pct2": 0.128
+        },
+        {
+          "gene": "ITGB8",
+          "lfc": 1.73,
+          "pct1": 0.134,
+          "pct2": 0.045
+        },
+        {
+          "gene": "ATP1A1",
+          "lfc": 1.63,
+          "pct1": 0.253,
+          "pct2": 0.128
+        },
+        {
+          "gene": "KRT14",
+          "lfc": 1.61,
+          "pct1": 0.456,
+          "pct2": 0.148
+        },
+        {
+          "gene": "SFRP1",
+          "lfc": 1.53,
+          "pct1": 0.155,
+          "pct2": 0.052
+        },
+        {
+          "gene": "MMP7",
+          "lfc": 1.52,
+          "pct1": 0.134,
+          "pct2": 0.05
+        },
+        {
+          "gene": "S100A2",
+          "lfc": 1.51,
+          "pct1": 0.161,
+          "pct2": 0.053
+        },
+        {
+          "gene": "SOX9",
+          "lfc": 1.5,
+          "pct1": 0.159,
+          "pct2": 0.056
+        },
+        {
+          "gene": "DSG3",
+          "lfc": 1.39,
+          "pct1": 0.137,
+          "pct2": 0.049
+        },
+        {
+          "gene": "MIA",
+          "lfc": 1.38,
+          "pct1": 0.112,
+          "pct2": 0.047
+        },
+        {
+          "gene": "PTPRF",
+          "lfc": 1.37,
+          "pct1": 0.171,
+          "pct2": 0.076
+        },
+        {
+          "gene": "LAMA5",
+          "lfc": 1.37,
+          "pct1": 0.113,
+          "pct2": 0.05
+        },
+        {
+          "gene": "KRT17",
+          "lfc": 1.36,
+          "pct1": 0.201,
+          "pct2": 0.07
+        }
+      ]
+    },
+    "Eccrine secretory coil / ionocyte": {
+      "annotation": "transferred label",
+      "n_cells": 278,
+      "markers": [
+        {
+          "gene": "LTF",
+          "lfc": 5.7,
+          "pct1": 0.543,
+          "pct2": 0.033
+        },
+        {
+          "gene": "KRT19",
+          "lfc": 4.89,
+          "pct1": 0.699,
+          "pct2": 0.036
+        },
+        {
+          "gene": "KRT7",
+          "lfc": 4.34,
+          "pct1": 0.553,
+          "pct2": 0.033
+        },
+        {
+          "gene": "MMP7",
+          "lfc": 4.12,
+          "pct1": 0.493,
+          "pct2": 0.043
+        },
+        {
+          "gene": "SFRP1",
+          "lfc": 3.54,
+          "pct1": 0.461,
+          "pct2": 0.046
+        },
+        {
+          "gene": "SLC12A2",
+          "lfc": 3.39,
+          "pct1": 0.265,
+          "pct2": 0.041
+        },
+        {
+          "gene": "KRT15",
+          "lfc": 3.34,
+          "pct1": 0.459,
+          "pct2": 0.075
+        },
+        {
+          "gene": "SAA1",
+          "lfc": 2.93,
+          "pct1": 0.294,
+          "pct2": 0.032
+        },
+        {
+          "gene": "IDO1",
+          "lfc": 2.93,
+          "pct1": 0.301,
+          "pct2": 0.046
+        },
+        {
+          "gene": "SOX10",
+          "lfc": 2.85,
+          "pct1": 0.204,
+          "pct2": 0.022
+        },
+        {
+          "gene": "ELF3",
+          "lfc": 2.79,
+          "pct1": 0.28,
+          "pct2": 0.037
+        },
+        {
+          "gene": "CD24",
+          "lfc": 2.67,
+          "pct1": 0.27,
+          "pct2": 0.03
+        },
+        {
+          "gene": "MIA",
+          "lfc": 2.66,
+          "pct1": 0.346,
+          "pct2": 0.043
+        },
+        {
+          "gene": "ITGB4",
+          "lfc": 2.64,
+          "pct1": 0.437,
+          "pct2": 0.055
+        },
+        {
+          "gene": "PTPRF",
+          "lfc": 2.63,
+          "pct1": 0.476,
+          "pct2": 0.071
+        },
+        {
+          "gene": "PLA2R1",
+          "lfc": 2.62,
+          "pct1": 0.218,
+          "pct2": 0.045
+        },
+        {
+          "gene": "CX3CL1",
+          "lfc": 2.54,
+          "pct1": 0.238,
+          "pct2": 0.033
+        },
+        {
+          "gene": "CLDN3",
+          "lfc": 2.54,
+          "pct1": 0.256,
+          "pct2": 0.032
+        },
+        {
+          "gene": "MARCKSL1",
+          "lfc": 2.51,
+          "pct1": 0.495,
+          "pct2": 0.092
+        },
+        {
+          "gene": "KRT8",
+          "lfc": 2.49,
+          "pct1": 0.445,
+          "pct2": 0.062
+        }
+      ]
+    },
+    "Eccrine/apocrine secretory (DCD+)": {
+      "annotation": "transferred label",
+      "n_cells": 278,
+      "markers": [
+        {
+          "gene": "SCGB2A2",
+          "lfc": 7.34,
+          "pct1": 0.471,
+          "pct2": 0.032
+        },
+        {
+          "gene": "PIP",
+          "lfc": 5.08,
+          "pct1": 0.244,
+          "pct2": 0.021
+        },
+        {
+          "gene": "KRT19",
+          "lfc": 4.22,
+          "pct1": 0.45,
+          "pct2": 0.044
+        },
+        {
+          "gene": "KRT7",
+          "lfc": 4.14,
+          "pct1": 0.377,
+          "pct2": 0.039
+        },
+        {
+          "gene": "CEACAM6",
+          "lfc": 4.08,
+          "pct1": 0.256,
+          "pct2": 0.022
+        },
+        {
+          "gene": "SLC12A2",
+          "lfc": 3.56,
+          "pct1": 0.304,
+          "pct2": 0.042
+        },
+        {
+          "gene": "AZGP1",
+          "lfc": 3.43,
+          "pct1": 0.389,
+          "pct2": 0.043
+        },
+        {
+          "gene": "MLPH",
+          "lfc": 3.17,
+          "pct1": 0.265,
+          "pct2": 0.047
+        },
+        {
+          "gene": "FOXA1",
+          "lfc": 3.03,
+          "pct1": 0.184,
+          "pct2": 0.026
+        },
+        {
+          "gene": "SCGB2A1",
+          "lfc": 2.95,
+          "pct1": 0.131,
+          "pct2": 0.028
+        },
+        {
+          "gene": "SFRP1",
+          "lfc": 2.88,
+          "pct1": 0.266,
+          "pct2": 0.052
+        },
+        {
+          "gene": "PPP1R1B",
+          "lfc": 2.74,
+          "pct1": 0.332,
+          "pct2": 0.071
+        },
+        {
+          "gene": "SPDEF",
+          "lfc": 2.65,
+          "pct1": 0.178,
+          "pct2": 0.038
+        },
+        {
+          "gene": "PIGR",
+          "lfc": 2.58,
+          "pct1": 0.106,
+          "pct2": 0.022
+        },
+        {
+          "gene": "SOX9",
+          "lfc": 2.57,
+          "pct1": 0.264,
+          "pct2": 0.056
+        },
+        {
+          "gene": "SELENBP1",
+          "lfc": 2.56,
+          "pct1": 0.238,
+          "pct2": 0.056
+        },
+        {
+          "gene": "PADI2",
+          "lfc": 2.51,
+          "pct1": 0.19,
+          "pct2": 0.047
+        },
+        {
+          "gene": "LTF",
+          "lfc": 2.5,
+          "pct1": 0.182,
+          "pct2": 0.042
+        },
+        {
+          "gene": "AGR2",
+          "lfc": 2.48,
+          "pct1": 0.109,
+          "pct2": 0.021
+        },
+        {
+          "gene": "TBX3",
+          "lfc": 2.42,
+          "pct1": 0.178,
+          "pct2": 0.035
+        }
+      ]
+    },
+    "Endothelial": {
+      "annotation": "transferred label",
+      "n_cells": 10055,
+      "markers": [
+        {
+          "gene": "VWF",
+          "lfc": 4,
+          "pct1": 0.29,
+          "pct2": 0.026
+        },
+        {
+          "gene": "ACKR1",
+          "lfc": 3.86,
+          "pct1": 0.21,
+          "pct2": 0.023
+        },
+        {
+          "gene": "MCAM",
+          "lfc": 3.76,
+          "pct1": 0.218,
+          "pct2": 0.019
+        },
+        {
+          "gene": "RGS5",
+          "lfc": 3.72,
+          "pct1": 0.323,
+          "pct2": 0.037
+        },
+        {
+          "gene": "SPARCL1",
+          "lfc": 3.64,
+          "pct1": 0.376,
+          "pct2": 0.044
+        },
+        {
+          "gene": "CCL21",
+          "lfc": 3.53,
+          "pct1": 0.107,
+          "pct2": 0.021
+        },
+        {
+          "gene": "CLDN5",
+          "lfc": 3.45,
+          "pct1": 0.182,
+          "pct2": 0.018
+        },
+        {
+          "gene": "RAMP3",
+          "lfc": 3.41,
+          "pct1": 0.224,
+          "pct2": 0.027
+        },
+        {
+          "gene": "PLVAP",
+          "lfc": 3.38,
+          "pct1": 0.274,
+          "pct2": 0.035
+        },
+        {
+          "gene": "TAGLN",
+          "lfc": 3.3,
+          "pct1": 0.346,
+          "pct2": 0.075
+        },
+        {
+          "gene": "TSPAN7",
+          "lfc": 3.15,
+          "pct1": 0.149,
+          "pct2": 0.023
+        },
+        {
+          "gene": "CD34",
+          "lfc": 3.1,
+          "pct1": 0.3,
+          "pct2": 0.046
+        },
+        {
+          "gene": "AQP1",
+          "lfc": 3.1,
+          "pct1": 0.367,
+          "pct2": 0.067
+        },
+        {
+          "gene": "MYL9",
+          "lfc": 2.96,
+          "pct1": 0.422,
+          "pct2": 0.089
+        },
+        {
+          "gene": "IGFBP7",
+          "lfc": 2.85,
+          "pct1": 0.622,
+          "pct2": 0.146
+        },
+        {
+          "gene": "BCAM",
+          "lfc": 2.83,
+          "pct1": 0.23,
+          "pct2": 0.035
+        },
+        {
+          "gene": "FABP4",
+          "lfc": 2.81,
+          "pct1": 0.158,
+          "pct2": 0.027
+        },
+        {
+          "gene": "ENG",
+          "lfc": 2.76,
+          "pct1": 0.31,
+          "pct2": 0.065
+        },
+        {
+          "gene": "ID1",
+          "lfc": 2.69,
+          "pct1": 0.211,
+          "pct2": 0.038
+        },
+        {
+          "gene": "ADIRF",
+          "lfc": 2.69,
+          "pct1": 0.391,
+          "pct2": 0.078
+        }
+      ]
+    },
+    "Fibroblast (transitional/low-specificity)": {
+      "annotation": "transferred label",
+      "n_cells": 6197,
+      "markers": [
+        {
+          "gene": "MMP2",
+          "lfc": 2.23,
+          "pct1": 0.407,
+          "pct2": 0.172
+        },
+        {
+          "gene": "COL3A1",
+          "lfc": 2.11,
+          "pct1": 0.537,
+          "pct2": 0.215
+        },
+        {
+          "gene": "DCN",
+          "lfc": 2.1,
+          "pct1": 0.601,
+          "pct2": 0.248
+        },
+        {
+          "gene": "COL1A2",
+          "lfc": 2.08,
+          "pct1": 0.587,
+          "pct2": 0.225
+        },
+        {
+          "gene": "COL1A1",
+          "lfc": 2.05,
+          "pct1": 0.753,
+          "pct2": 0.302
+        },
+        {
+          "gene": "MFAP4",
+          "lfc": 2.03,
+          "pct1": 0.196,
+          "pct2": 0.096
+        },
+        {
+          "gene": "C1R",
+          "lfc": 1.92,
+          "pct1": 0.342,
+          "pct2": 0.164
+        },
+        {
+          "gene": "LUM",
+          "lfc": 1.92,
+          "pct1": 0.248,
+          "pct2": 0.128
+        },
+        {
+          "gene": "FSTL1",
+          "lfc": 1.91,
+          "pct1": 0.276,
+          "pct2": 0.14
+        },
+        {
+          "gene": "COL6A3",
+          "lfc": 1.87,
+          "pct1": 0.381,
+          "pct2": 0.182
+        },
+        {
+          "gene": "ANGPTL2",
+          "lfc": 1.87,
+          "pct1": 0.115,
+          "pct2": 0.071
+        },
+        {
+          "gene": "COL6A1",
+          "lfc": 1.86,
+          "pct1": 0.554,
+          "pct2": 0.262
+        },
+        {
+          "gene": "C3",
+          "lfc": 1.85,
+          "pct1": 0.36,
+          "pct2": 0.172
+        },
+        {
+          "gene": "COL6A2",
+          "lfc": 1.83,
+          "pct1": 0.591,
+          "pct2": 0.288
+        },
+        {
+          "gene": "C1S",
+          "lfc": 1.81,
+          "pct1": 0.403,
+          "pct2": 0.215
+        },
+        {
+          "gene": "CCDC80",
+          "lfc": 1.8,
+          "pct1": 0.246,
+          "pct2": 0.132
+        },
+        {
+          "gene": "FBLN1",
+          "lfc": 1.8,
+          "pct1": 0.203,
+          "pct2": 0.106
+        },
+        {
+          "gene": "PCOLCE",
+          "lfc": 1.79,
+          "pct1": 0.18,
+          "pct2": 0.111
+        },
+        {
+          "gene": "MXRA8",
+          "lfc": 1.75,
+          "pct1": 0.118,
+          "pct2": 0.071
+        },
+        {
+          "gene": "SFRP2",
+          "lfc": 1.7,
+          "pct1": 0.136,
+          "pct2": 0.082
+        }
+      ]
+    },
+    "Foamy/lipid-laden macrophage (APOE/CCL18)": {
+      "annotation": "transferred label",
+      "n_cells": 13581,
+      "markers": [
+        {
+          "gene": "CHIT1",
+          "lfc": 2.86,
+          "pct1": 0.82,
+          "pct2": 0.191
+        },
+        {
+          "gene": "CHI3L1",
+          "lfc": 2.49,
+          "pct1": 0.64,
+          "pct2": 0.175
+        },
+        {
+          "gene": "LIPA",
+          "lfc": 2.37,
+          "pct1": 0.732,
+          "pct2": 0.191
+        },
+        {
+          "gene": "CTSD",
+          "lfc": 2.28,
+          "pct1": 0.952,
+          "pct2": 0.392
+        },
+        {
+          "gene": "APOC1",
+          "lfc": 2.27,
+          "pct1": 0.776,
+          "pct2": 0.214
+        },
+        {
+          "gene": "GPNMB",
+          "lfc": 2.16,
+          "pct1": 0.782,
+          "pct2": 0.239
+        },
+        {
+          "gene": "APOE",
+          "lfc": 2.1,
+          "pct1": 0.958,
+          "pct2": 0.398
+        },
+        {
+          "gene": "GM2A",
+          "lfc": 2.07,
+          "pct1": 0.737,
+          "pct2": 0.224
+        },
+        {
+          "gene": "MMP9",
+          "lfc": 2.06,
+          "pct1": 0.706,
+          "pct2": 0.225
+        },
+        {
+          "gene": "CTSK",
+          "lfc": 2.03,
+          "pct1": 0.483,
+          "pct2": 0.133
+        },
+        {
+          "gene": "ACP5",
+          "lfc": 2.02,
+          "pct1": 0.554,
+          "pct2": 0.15
+        },
+        {
+          "gene": "LYZ",
+          "lfc": 2,
+          "pct1": 0.99,
+          "pct2": 0.472
+        },
+        {
+          "gene": "CTSS",
+          "lfc": 1.97,
+          "pct1": 0.904,
+          "pct2": 0.336
+        },
+        {
+          "gene": "CYP27A1",
+          "lfc": 1.97,
+          "pct1": 0.572,
+          "pct2": 0.152
+        },
+        {
+          "gene": "CD68",
+          "lfc": 1.95,
+          "pct1": 0.784,
+          "pct2": 0.249
+        },
+        {
+          "gene": "PSAP",
+          "lfc": 1.93,
+          "pct1": 0.986,
+          "pct2": 0.54
+        },
+        {
+          "gene": "CTSB",
+          "lfc": 1.87,
+          "pct1": 0.981,
+          "pct2": 0.473
+        },
+        {
+          "gene": "A2M",
+          "lfc": 1.86,
+          "pct1": 0.494,
+          "pct2": 0.135
+        },
+        {
+          "gene": "CTSZ",
+          "lfc": 1.79,
+          "pct1": 0.833,
+          "pct2": 0.32
+        },
+        {
+          "gene": "GRN",
+          "lfc": 1.77,
+          "pct1": 0.709,
+          "pct2": 0.248
+        }
+      ]
+    },
+    "Granular keratinocyte (barrier/lipid)": {
+      "annotation": "transferred label",
+      "n_cells": 200,
+      "markers": [
+        {
+          "gene": "FLG",
+          "lfc": 5.07,
+          "pct1": 0.601,
+          "pct2": 0.048
+        },
+        {
+          "gene": "KRT80",
+          "lfc": 4.92,
+          "pct1": 0.383,
+          "pct2": 0.031
+        },
+        {
+          "gene": "SPINK5",
+          "lfc": 4.49,
+          "pct1": 0.579,
+          "pct2": 0.051
+        },
+        {
+          "gene": "HOPX",
+          "lfc": 4.25,
+          "pct1": 0.467,
+          "pct2": 0.06
+        },
+        {
+          "gene": "TACSTD2",
+          "lfc": 4.21,
+          "pct1": 0.615,
+          "pct2": 0.076
+        },
+        {
+          "gene": "CLDN4",
+          "lfc": 4.06,
+          "pct1": 0.396,
+          "pct2": 0.05
+        },
+        {
+          "gene": "LYPD3",
+          "lfc": 4.05,
+          "pct1": 0.491,
+          "pct2": 0.055
+        },
+        {
+          "gene": "GP1BB",
+          "lfc": 4,
+          "pct1": 0.388,
+          "pct2": 0.053
+        },
+        {
+          "gene": "BLMH",
+          "lfc": 3.94,
+          "pct1": 0.264,
+          "pct2": 0.042
+        },
+        {
+          "gene": "CALML5",
+          "lfc": 3.91,
+          "pct1": 0.656,
+          "pct2": 0.075
+        },
+        {
+          "gene": "F3",
+          "lfc": 3.79,
+          "pct1": 0.335,
+          "pct2": 0.053
+        },
+        {
+          "gene": "ACP3",
+          "lfc": 3.54,
+          "pct1": 0.165,
+          "pct2": 0.031
+        },
+        {
+          "gene": "PERP",
+          "lfc": 3.53,
+          "pct1": 0.692,
+          "pct2": 0.112
+        },
+        {
+          "gene": "DUOX1",
+          "lfc": 3.53,
+          "pct1": 0.275,
+          "pct2": 0.039
+        },
+        {
+          "gene": "GAN",
+          "lfc": 3.53,
+          "pct1": 0.192,
+          "pct2": 0.03
+        },
+        {
+          "gene": "ELOVL7",
+          "lfc": 3.53,
+          "pct1": 0.214,
+          "pct2": 0.036
+        },
+        {
+          "gene": "AZGP1",
+          "lfc": 3.53,
+          "pct1": 0.174,
+          "pct2": 0.047
+        },
+        {
+          "gene": "KRT10",
+          "lfc": 3.51,
+          "pct1": 0.736,
+          "pct2": 0.098
+        },
+        {
+          "gene": "DHCR24",
+          "lfc": 3.49,
+          "pct1": 0.41,
+          "pct2": 0.073
+        },
+        {
+          "gene": "ARG1",
+          "lfc": 3.42,
+          "pct1": 0.17,
+          "pct2": 0.03
+        }
+      ]
+    },
+    "IFN-activated macrophage (M1)": {
+      "annotation": "transferred label",
+      "n_cells": 872,
+      "markers": [
+        {
+          "gene": "CXCL10",
+          "lfc": 2.43,
+          "pct1": 0.283,
+          "pct2": 0.047
+        },
+        {
+          "gene": "CCL4",
+          "lfc": 2.32,
+          "pct1": 0.34,
+          "pct2": 0.081
+        },
+        {
+          "gene": "IL1B",
+          "lfc": 2.29,
+          "pct1": 0.13,
+          "pct2": 0.027
+        },
+        {
+          "gene": "CXCL8",
+          "lfc": 2.13,
+          "pct1": 0.126,
+          "pct2": 0.034
+        },
+        {
+          "gene": "CCL8",
+          "lfc": 2.11,
+          "pct1": 0.228,
+          "pct2": 0.054
+        },
+        {
+          "gene": "CCL3",
+          "lfc": 1.98,
+          "pct1": 0.277,
+          "pct2": 0.066
+        },
+        {
+          "gene": "SLC2A6",
+          "lfc": 1.92,
+          "pct1": 0.274,
+          "pct2": 0.055
+        },
+        {
+          "gene": "CXCL9",
+          "lfc": 1.86,
+          "pct1": 0.64,
+          "pct2": 0.198
+        },
+        {
+          "gene": "ICAM1",
+          "lfc": 1.83,
+          "pct1": 0.493,
+          "pct2": 0.134
+        },
+        {
+          "gene": "PLEK",
+          "lfc": 1.83,
+          "pct1": 0.555,
+          "pct2": 0.16
+        },
+        {
+          "gene": "CALHM6",
+          "lfc": 1.82,
+          "pct1": 0.237,
+          "pct2": 0.05
+        },
+        {
+          "gene": "GBP1",
+          "lfc": 1.79,
+          "pct1": 0.497,
+          "pct2": 0.124
+        },
+        {
+          "gene": "GBP5",
+          "lfc": 1.72,
+          "pct1": 0.496,
+          "pct2": 0.138
+        },
+        {
+          "gene": "ITGAX",
+          "lfc": 1.69,
+          "pct1": 0.4,
+          "pct2": 0.104
+        },
+        {
+          "gene": "FBP1",
+          "lfc": 1.66,
+          "pct1": 0.464,
+          "pct2": 0.131
+        },
+        {
+          "gene": "CD274",
+          "lfc": 1.65,
+          "pct1": 0.263,
+          "pct2": 0.063
+        },
+        {
+          "gene": "CD83",
+          "lfc": 1.64,
+          "pct1": 0.3,
+          "pct2": 0.082
+        },
+        {
+          "gene": "CYBB",
+          "lfc": 1.59,
+          "pct1": 0.613,
+          "pct2": 0.174
+        },
+        {
+          "gene": "CCL2",
+          "lfc": 1.57,
+          "pct1": 0.26,
+          "pct2": 0.086
+        },
+        {
+          "gene": "CCL17",
+          "lfc": 1.55,
+          "pct1": 0.23,
+          "pct2": 0.071
+        }
+      ]
+    },
+    "IFN/cytokine inflammatory fibroblast (CCL8/IL6)": {
+      "annotation": "transferred label",
+      "n_cells": 6,
+      "markers": [
+        {
+          "gene": "MMP1",
+          "lfc": 4.71,
+          "pct1": 0.158,
+          "pct2": 0.028
+        },
+        {
+          "gene": "IL6",
+          "lfc": 4.38,
+          "pct1": 0.421,
+          "pct2": 0.033
+        },
+        {
+          "gene": "NAMPT",
+          "lfc": 4.04,
+          "pct1": 0.632,
+          "pct2": 0.089
+        },
+        {
+          "gene": "THBS1",
+          "lfc": 3.94,
+          "pct1": 0.474,
+          "pct2": 0.058
+        },
+        {
+          "gene": "CTNND2",
+          "lfc": 3.53,
+          "pct1": 0.158,
+          "pct2": 0.036
+        },
+        {
+          "gene": "TNFAIP6",
+          "lfc": 3.48,
+          "pct1": 0.263,
+          "pct2": 0.039
+        },
+        {
+          "gene": "PDPN",
+          "lfc": 3.44,
+          "pct1": 0.316,
+          "pct2": 0.054
+        },
+        {
+          "gene": "EGR1",
+          "lfc": 3.42,
+          "pct1": 0.263,
+          "pct2": 0.061
+        },
+        {
+          "gene": "VCAN",
+          "lfc": 3.4,
+          "pct1": 0.211,
+          "pct2": 0.052
+        },
+        {
+          "gene": "MXRA8",
+          "lfc": 3.39,
+          "pct1": 0.316,
+          "pct2": 0.073
+        },
+        {
+          "gene": "CD276",
+          "lfc": 3.38,
+          "pct1": 0.263,
+          "pct2": 0.049
+        },
+        {
+          "gene": "THBS2",
+          "lfc": 3.33,
+          "pct1": 0.474,
+          "pct2": 0.096
+        },
+        {
+          "gene": "ABL2",
+          "lfc": 3.29,
+          "pct1": 0.316,
+          "pct2": 0.039
+        },
+        {
+          "gene": "ATF3",
+          "lfc": 3.28,
+          "pct1": 0.158,
+          "pct2": 0.039
+        },
+        {
+          "gene": "NFATC4",
+          "lfc": 3.27,
+          "pct1": 0.263,
+          "pct2": 0.052
+        },
+        {
+          "gene": "KCNJ11",
+          "lfc": 3.26,
+          "pct1": 0.211,
+          "pct2": 0.031
+        },
+        {
+          "gene": "G0S2",
+          "lfc": 3.23,
+          "pct1": 0.316,
+          "pct2": 0.069
+        },
+        {
+          "gene": "ATP5F1E",
+          "lfc": 3.2,
+          "pct1": 0.211,
+          "pct2": 0.028
+        },
+        {
+          "gene": "NFATC1",
+          "lfc": 3.2,
+          "pct1": 0.211,
+          "pct2": 0.055
+        },
+        {
+          "gene": "SMAD7",
+          "lfc": 3.18,
+          "pct1": 0.211,
+          "pct2": 0.049
+        }
+      ]
+    },
+    "ISG+ basal/inflammatory keratinocyte": {
+      "annotation": "transferred label",
+      "n_cells": 547,
+      "markers": [
+        {
+          "gene": "KRT5",
+          "lfc": 4.32,
+          "pct1": 0.922,
+          "pct2": 0.112
+        },
+        {
+          "gene": "KRT14",
+          "lfc": 4.16,
+          "pct1": 0.942,
+          "pct2": 0.143
+        },
+        {
+          "gene": "COL17A1",
+          "lfc": 4.14,
+          "pct1": 0.714,
+          "pct2": 0.054
+        },
+        {
+          "gene": "KRT15",
+          "lfc": 3.66,
+          "pct1": 0.617,
+          "pct2": 0.073
+        },
+        {
+          "gene": "COL7A1",
+          "lfc": 3.31,
+          "pct1": 0.516,
+          "pct2": 0.051
+        },
+        {
+          "gene": "KRT17",
+          "lfc": 3.19,
+          "pct1": 0.64,
+          "pct2": 0.064
+        },
+        {
+          "gene": "FGFR3",
+          "lfc": 3.15,
+          "pct1": 0.635,
+          "pct2": 0.077
+        },
+        {
+          "gene": "KRT6A",
+          "lfc": 3.08,
+          "pct1": 0.84,
+          "pct2": 0.113
+        },
+        {
+          "gene": "S100A2",
+          "lfc": 2.95,
+          "pct1": 0.492,
+          "pct2": 0.049
+        },
+        {
+          "gene": "SFN",
+          "lfc": 2.95,
+          "pct1": 0.627,
+          "pct2": 0.072
+        },
+        {
+          "gene": "KRT16",
+          "lfc": 2.91,
+          "pct1": 0.678,
+          "pct2": 0.072
+        },
+        {
+          "gene": "DST",
+          "lfc": 2.88,
+          "pct1": 0.433,
+          "pct2": 0.06
+        },
+        {
+          "gene": "LY6D",
+          "lfc": 2.85,
+          "pct1": 0.618,
+          "pct2": 0.068
+        },
+        {
+          "gene": "DSP",
+          "lfc": 2.74,
+          "pct1": 0.66,
+          "pct2": 0.088
+        },
+        {
+          "gene": "ITGB4",
+          "lfc": 2.73,
+          "pct1": 0.478,
+          "pct2": 0.056
+        },
+        {
+          "gene": "CCL27",
+          "lfc": 2.73,
+          "pct1": 0.368,
+          "pct2": 0.04
+        },
+        {
+          "gene": "DSC3",
+          "lfc": 2.72,
+          "pct1": 0.641,
+          "pct2": 0.079
+        },
+        {
+          "gene": "AQP3",
+          "lfc": 2.58,
+          "pct1": 0.637,
+          "pct2": 0.095
+        },
+        {
+          "gene": "WNT4",
+          "lfc": 2.47,
+          "pct1": 0.361,
+          "pct2": 0.045
+        },
+        {
+          "gene": "LAMA5",
+          "lfc": 2.46,
+          "pct1": 0.325,
+          "pct2": 0.047
+        }
+      ]
+    },
+    "Inflammatory/activated fibroblast (PTX3+)": {
+      "annotation": "transferred label",
+      "n_cells": 102,
+      "markers": [
+        {
+          "gene": "MMP1",
+          "lfc": 3.66,
+          "pct1": 0.214,
+          "pct2": 0.027
+        },
+        {
+          "gene": "MMP2",
+          "lfc": 3.12,
+          "pct1": 0.921,
+          "pct2": 0.175
+        },
+        {
+          "gene": "COL1A1",
+          "lfc": 2.79,
+          "pct1": 0.99,
+          "pct2": 0.312
+        },
+        {
+          "gene": "ACKR3",
+          "lfc": 2.74,
+          "pct1": 0.364,
+          "pct2": 0.048
+        },
+        {
+          "gene": "THBS1",
+          "lfc": 2.74,
+          "pct1": 0.377,
+          "pct2": 0.056
+        },
+        {
+          "gene": "CCN2",
+          "lfc": 2.73,
+          "pct1": 0.305,
+          "pct2": 0.05
+        },
+        {
+          "gene": "NNMT",
+          "lfc": 2.69,
+          "pct1": 0.539,
+          "pct2": 0.085
+        },
+        {
+          "gene": "ANGPTL2",
+          "lfc": 2.68,
+          "pct1": 0.486,
+          "pct2": 0.07
+        },
+        {
+          "gene": "TNC",
+          "lfc": 2.68,
+          "pct1": 0.425,
+          "pct2": 0.072
+        },
+        {
+          "gene": "COL3A1",
+          "lfc": 2.65,
+          "pct1": 0.893,
+          "pct2": 0.221
+        },
+        {
+          "gene": "COL1A2",
+          "lfc": 2.61,
+          "pct1": 0.939,
+          "pct2": 0.232
+        },
+        {
+          "gene": "GREM1",
+          "lfc": 2.59,
+          "pct1": 0.206,
+          "pct2": 0.024
+        },
+        {
+          "gene": "ADAMTS5",
+          "lfc": 2.59,
+          "pct1": 0.349,
+          "pct2": 0.053
+        },
+        {
+          "gene": "VCAN",
+          "lfc": 2.52,
+          "pct1": 0.338,
+          "pct2": 0.05
+        },
+        {
+          "gene": "CCN1",
+          "lfc": 2.51,
+          "pct1": 0.229,
+          "pct2": 0.038
+        },
+        {
+          "gene": "IL6",
+          "lfc": 2.51,
+          "pct1": 0.188,
+          "pct2": 0.032
+        },
+        {
+          "gene": "PLA2G2A",
+          "lfc": 2.49,
+          "pct1": 0.254,
+          "pct2": 0.039
+        },
+        {
+          "gene": "NAMPT",
+          "lfc": 2.45,
+          "pct1": 0.438,
+          "pct2": 0.087
+        },
+        {
+          "gene": "LUM",
+          "lfc": 2.44,
+          "pct1": 0.667,
+          "pct2": 0.129
+        },
+        {
+          "gene": "THBS2",
+          "lfc": 2.39,
+          "pct1": 0.583,
+          "pct2": 0.093
+        }
+      ]
+    },
+    "Langerhans cell": {
+      "annotation": "transferred label",
+      "n_cells": 114,
+      "markers": [
+        {
+          "gene": "CD207",
+          "lfc": 6.14,
+          "pct1": 0.638,
+          "pct2": 0.033
+        },
+        {
+          "gene": "FCGBP",
+          "lfc": 5.71,
+          "pct1": 0.486,
+          "pct2": 0.033
+        },
+        {
+          "gene": "CD1A",
+          "lfc": 4.17,
+          "pct1": 0.425,
+          "pct2": 0.054
+        },
+        {
+          "gene": "FCER1A",
+          "lfc": 3.73,
+          "pct1": 0.236,
+          "pct2": 0.035
+        },
+        {
+          "gene": "HLA-DQB2",
+          "lfc": 3.66,
+          "pct1": 0.414,
+          "pct2": 0.114
+        },
+        {
+          "gene": "CLDN1",
+          "lfc": 3.45,
+          "pct1": 0.299,
+          "pct2": 0.051
+        },
+        {
+          "gene": "TACSTD2",
+          "lfc": 2.8,
+          "pct1": 0.33,
+          "pct2": 0.078
+        },
+        {
+          "gene": "SLC18A2",
+          "lfc": 2.79,
+          "pct1": 0.109,
+          "pct2": 0.032
+        },
+        {
+          "gene": "S100B",
+          "lfc": 2.72,
+          "pct1": 0.144,
+          "pct2": 0.036
+        },
+        {
+          "gene": "FLT1",
+          "lfc": 2.35,
+          "pct1": 0.101,
+          "pct2": 0.033
+        },
+        {
+          "gene": "CARD9",
+          "lfc": 2.34,
+          "pct1": 0.167,
+          "pct2": 0.059
+        },
+        {
+          "gene": "CSF1R",
+          "lfc": 2.34,
+          "pct1": 0.23,
+          "pct2": 0.092
+        },
+        {
+          "gene": "GNA15",
+          "lfc": 2.22,
+          "pct1": 0.147,
+          "pct2": 0.047
+        },
+        {
+          "gene": "HLX",
+          "lfc": 2.18,
+          "pct1": 0.101,
+          "pct2": 0.049
+        },
+        {
+          "gene": "CLEC5A",
+          "lfc": 2.13,
+          "pct1": 0.121,
+          "pct2": 0.039
+        },
+        {
+          "gene": "ADAM28",
+          "lfc": 2.1,
+          "pct1": 0.147,
+          "pct2": 0.053
+        },
+        {
+          "gene": "ALOX5",
+          "lfc": 2.08,
+          "pct1": 0.241,
+          "pct2": 0.107
+        },
+        {
+          "gene": "ENO2",
+          "lfc": 2.06,
+          "pct1": 0.124,
+          "pct2": 0.052
+        },
+        {
+          "gene": "SCARF1",
+          "lfc": 1.79,
+          "pct1": 0.118,
+          "pct2": 0.052
+        },
+        {
+          "gene": "P2RY13",
+          "lfc": 1.74,
+          "pct1": 0.118,
+          "pct2": 0.059
+        }
+      ]
+    },
+    "Lipid-associated macrophage (FABP4/LPL)": {
+      "annotation": "transferred label",
+      "n_cells": 54,
+      "markers": [
+        {
+          "gene": "SPP1",
+          "lfc": 4.62,
+          "pct1": 0.376,
+          "pct2": 0.063
+        },
+        {
+          "gene": "LPL",
+          "lfc": 3.25,
+          "pct1": 0.452,
+          "pct2": 0.048
+        },
+        {
+          "gene": "FABP4",
+          "lfc": 3.21,
+          "pct1": 0.226,
+          "pct2": 0.031
+        },
+        {
+          "gene": "SDC2",
+          "lfc": 2.9,
+          "pct1": 0.28,
+          "pct2": 0.044
+        },
+        {
+          "gene": "SLC11A1",
+          "lfc": 2.65,
+          "pct1": 0.296,
+          "pct2": 0.053
+        },
+        {
+          "gene": "GPC4",
+          "lfc": 2.62,
+          "pct1": 0.253,
+          "pct2": 0.04
+        },
+        {
+          "gene": "ATF3",
+          "lfc": 2.55,
+          "pct1": 0.188,
+          "pct2": 0.038
+        },
+        {
+          "gene": "MMP12",
+          "lfc": 2.54,
+          "pct1": 0.167,
+          "pct2": 0.052
+        },
+        {
+          "gene": "IL1RN",
+          "lfc": 2.49,
+          "pct1": 0.188,
+          "pct2": 0.039
+        },
+        {
+          "gene": "C5AR1",
+          "lfc": 2.39,
+          "pct1": 0.215,
+          "pct2": 0.043
+        },
+        {
+          "gene": "MSR1",
+          "lfc": 2.32,
+          "pct1": 0.36,
+          "pct2": 0.082
+        },
+        {
+          "gene": "AQP9",
+          "lfc": 2,
+          "pct1": 0.21,
+          "pct2": 0.049
+        },
+        {
+          "gene": "RGCC",
+          "lfc": 1.97,
+          "pct1": 0.403,
+          "pct2": 0.113
+        },
+        {
+          "gene": "CTSL",
+          "lfc": 1.89,
+          "pct1": 0.371,
+          "pct2": 0.174
+        },
+        {
+          "gene": "SDS",
+          "lfc": 1.83,
+          "pct1": 0.129,
+          "pct2": 0.029
+        },
+        {
+          "gene": "CD36",
+          "lfc": 1.79,
+          "pct1": 0.145,
+          "pct2": 0.038
+        },
+        {
+          "gene": "PLAUR",
+          "lfc": 1.67,
+          "pct1": 0.28,
+          "pct2": 0.094
+        },
+        {
+          "gene": "ITGAX",
+          "lfc": 1.67,
+          "pct1": 0.28,
+          "pct2": 0.112
+        },
+        {
+          "gene": "MME",
+          "lfc": 1.64,
+          "pct1": 0.108,
+          "pct2": 0.034
+        },
+        {
+          "gene": "NR1H3",
+          "lfc": 1.52,
+          "pct1": 0.258,
+          "pct2": 0.102
+        }
+      ]
+    },
+    "M2 perivascular/resident macrophage (FOLR2/F13A1)": {
+      "annotation": "transferred label",
+      "n_cells": 2826,
+      "markers": [
+        {
+          "gene": "STAB1",
+          "lfc": 3.09,
+          "pct1": 0.516,
+          "pct2": 0.067
+        },
+        {
+          "gene": "RNASE1",
+          "lfc": 3.02,
+          "pct1": 0.637,
+          "pct2": 0.105
+        },
+        {
+          "gene": "CD163",
+          "lfc": 2.73,
+          "pct1": 0.612,
+          "pct2": 0.093
+        },
+        {
+          "gene": "SELENOP",
+          "lfc": 2.64,
+          "pct1": 0.735,
+          "pct2": 0.16
+        },
+        {
+          "gene": "F13A1",
+          "lfc": 2.62,
+          "pct1": 0.511,
+          "pct2": 0.079
+        },
+        {
+          "gene": "LGMN",
+          "lfc": 2.6,
+          "pct1": 0.725,
+          "pct2": 0.159
+        },
+        {
+          "gene": "SLC40A1",
+          "lfc": 2.57,
+          "pct1": 0.498,
+          "pct2": 0.087
+        },
+        {
+          "gene": "CCL13",
+          "lfc": 2.47,
+          "pct1": 0.335,
+          "pct2": 0.052
+        },
+        {
+          "gene": "MS4A7",
+          "lfc": 2.46,
+          "pct1": 0.44,
+          "pct2": 0.077
+        },
+        {
+          "gene": "SIGLEC1",
+          "lfc": 2.46,
+          "pct1": 0.356,
+          "pct2": 0.052
+        },
+        {
+          "gene": "MS4A6A",
+          "lfc": 2.42,
+          "pct1": 0.529,
+          "pct2": 0.089
+        },
+        {
+          "gene": "MS4A4A",
+          "lfc": 2.31,
+          "pct1": 0.409,
+          "pct2": 0.065
+        },
+        {
+          "gene": "MRC1",
+          "lfc": 2.28,
+          "pct1": 0.551,
+          "pct2": 0.109
+        },
+        {
+          "gene": "PLTP",
+          "lfc": 2.26,
+          "pct1": 0.48,
+          "pct2": 0.097
+        },
+        {
+          "gene": "FOLR2",
+          "lfc": 2.26,
+          "pct1": 0.424,
+          "pct2": 0.073
+        },
+        {
+          "gene": "SLCO2B1",
+          "lfc": 2.24,
+          "pct1": 0.529,
+          "pct2": 0.103
+        },
+        {
+          "gene": "CD14",
+          "lfc": 2.24,
+          "pct1": 0.76,
+          "pct2": 0.197
+        },
+        {
+          "gene": "CD209",
+          "lfc": 2.23,
+          "pct1": 0.243,
+          "pct2": 0.039
+        },
+        {
+          "gene": "CCL18",
+          "lfc": 2.22,
+          "pct1": 0.625,
+          "pct2": 0.166
+        },
+        {
+          "gene": "DAB2",
+          "lfc": 2.15,
+          "pct1": 0.41,
+          "pct2": 0.087
+        }
+      ]
+    },
+    "M2 resident macrophage (STAB1/CD163)": {
+      "annotation": "transferred label",
+      "n_cells": 1638,
+      "markers": [
+        {
+          "gene": "CCL13",
+          "lfc": 3.22,
+          "pct1": 0.234,
+          "pct2": 0.055
+        },
+        {
+          "gene": "STAB1",
+          "lfc": 3.22,
+          "pct1": 0.312,
+          "pct2": 0.073
+        },
+        {
+          "gene": "RNASE1",
+          "lfc": 3.19,
+          "pct1": 0.418,
+          "pct2": 0.111
+        },
+        {
+          "gene": "F13A1",
+          "lfc": 3.02,
+          "pct1": 0.33,
+          "pct2": 0.085
+        },
+        {
+          "gene": "PLTP",
+          "lfc": 2.86,
+          "pct1": 0.3,
+          "pct2": 0.103
+        },
+        {
+          "gene": "CD163",
+          "lfc": 2.65,
+          "pct1": 0.289,
+          "pct2": 0.103
+        },
+        {
+          "gene": "FOLR2",
+          "lfc": 2.59,
+          "pct1": 0.203,
+          "pct2": 0.08
+        },
+        {
+          "gene": "SIGLEC1",
+          "lfc": 2.36,
+          "pct1": 0.136,
+          "pct2": 0.059
+        },
+        {
+          "gene": "MRC1",
+          "lfc": 2.35,
+          "pct1": 0.259,
+          "pct2": 0.119
+        },
+        {
+          "gene": "VSIG4",
+          "lfc": 2.34,
+          "pct1": 0.137,
+          "pct2": 0.063
+        },
+        {
+          "gene": "MS4A7",
+          "lfc": 2.3,
+          "pct1": 0.186,
+          "pct2": 0.085
+        },
+        {
+          "gene": "MS4A4A",
+          "lfc": 2.26,
+          "pct1": 0.158,
+          "pct2": 0.073
+        },
+        {
+          "gene": "MS4A6A",
+          "lfc": 2.21,
+          "pct1": 0.218,
+          "pct2": 0.098
+        },
+        {
+          "gene": "SELENOP",
+          "lfc": 2.18,
+          "pct1": 0.371,
+          "pct2": 0.171
+        },
+        {
+          "gene": "FCGRT",
+          "lfc": 2.15,
+          "pct1": 0.343,
+          "pct2": 0.176
+        },
+        {
+          "gene": "CCL18",
+          "lfc": 2.06,
+          "pct1": 0.302,
+          "pct2": 0.177
+        },
+        {
+          "gene": "MARCO",
+          "lfc": 2.05,
+          "pct1": 0.133,
+          "pct2": 0.08
+        },
+        {
+          "gene": "CD14",
+          "lfc": 2.03,
+          "pct1": 0.424,
+          "pct2": 0.208
+        },
+        {
+          "gene": "LGMN",
+          "lfc": 2.02,
+          "pct1": 0.36,
+          "pct2": 0.171
+        },
+        {
+          "gene": "DAB2",
+          "lfc": 1.99,
+          "pct1": 0.154,
+          "pct2": 0.095
+        }
+      ]
+    },
+    "Melanocyte": {
+      "annotation": "transferred label",
+      "n_cells": 1191,
+      "markers": [
+        {
+          "gene": "OCA2",
+          "lfc": 4.43,
+          "pct1": 0.164,
+          "pct2": 0.025
+        },
+        {
+          "gene": "MLANA",
+          "lfc": 4.37,
+          "pct1": 0.16,
+          "pct2": 0.025
+        },
+        {
+          "gene": "KIT",
+          "lfc": 3.63,
+          "pct1": 0.16,
+          "pct2": 0.038
+        },
+        {
+          "gene": "BCAN",
+          "lfc": 3.4,
+          "pct1": 0.1,
+          "pct2": 0.025
+        },
+        {
+          "gene": "PMEL",
+          "lfc": 3.36,
+          "pct1": 0.118,
+          "pct2": 0.045
+        },
+        {
+          "gene": "ADGRG1",
+          "lfc": 2.19,
+          "pct1": 0.114,
+          "pct2": 0.068
+        }
+      ]
+    },
+    "Multinucleated giant cell (osteoclast-like)": {
+      "annotation": "transferred label",
+      "n_cells": 6357,
+      "markers": [
+        {
+          "gene": "CHIT1",
+          "lfc": 3.84,
+          "pct1": 0.971,
+          "pct2": 0.186
+        },
+        {
+          "gene": "CYP27A1",
+          "lfc": 2.89,
+          "pct1": 0.93,
+          "pct2": 0.141
+        },
+        {
+          "gene": "LIPA",
+          "lfc": 2.85,
+          "pct1": 0.918,
+          "pct2": 0.185
+        },
+        {
+          "gene": "NPL",
+          "lfc": 2.81,
+          "pct1": 0.708,
+          "pct2": 0.083
+        },
+        {
+          "gene": "CTSD",
+          "lfc": 2.52,
+          "pct1": 0.995,
+          "pct2": 0.391
+        },
+        {
+          "gene": "ACP5",
+          "lfc": 2.5,
+          "pct1": 0.871,
+          "pct2": 0.14
+        },
+        {
+          "gene": "GPNMB",
+          "lfc": 2.47,
+          "pct1": 0.963,
+          "pct2": 0.233
+        },
+        {
+          "gene": "APOC1",
+          "lfc": 2.42,
+          "pct1": 0.942,
+          "pct2": 0.208
+        },
+        {
+          "gene": "ITGAX",
+          "lfc": 2.36,
+          "pct1": 0.748,
+          "pct2": 0.093
+        },
+        {
+          "gene": "PLA2G7",
+          "lfc": 2.35,
+          "pct1": 0.722,
+          "pct2": 0.09
+        },
+        {
+          "gene": "CHI3L1",
+          "lfc": 2.32,
+          "pct1": 0.575,
+          "pct2": 0.177
+        },
+        {
+          "gene": "A2M",
+          "lfc": 2.28,
+          "pct1": 0.764,
+          "pct2": 0.126
+        },
+        {
+          "gene": "CTSK",
+          "lfc": 2.21,
+          "pct1": 0.761,
+          "pct2": 0.124
+        },
+        {
+          "gene": "CCL18",
+          "lfc": 2.18,
+          "pct1": 0.654,
+          "pct2": 0.166
+        },
+        {
+          "gene": "RARRES1",
+          "lfc": 2.18,
+          "pct1": 0.549,
+          "pct2": 0.071
+        },
+        {
+          "gene": "SLC1A3",
+          "lfc": 2.18,
+          "pct1": 0.636,
+          "pct2": 0.08
+        },
+        {
+          "gene": "GM2A",
+          "lfc": 2.11,
+          "pct1": 0.936,
+          "pct2": 0.217
+        },
+        {
+          "gene": "CTSZ",
+          "lfc": 2.08,
+          "pct1": 0.966,
+          "pct2": 0.316
+        },
+        {
+          "gene": "APOE",
+          "lfc": 2.05,
+          "pct1": 0.996,
+          "pct2": 0.396
+        },
+        {
+          "gene": "PSAP",
+          "lfc": 2.02,
+          "pct1": 1,
+          "pct2": 0.539
+        }
+      ]
+    },
+    "Myofibroblast / pro-fibrotic (POSTN/FN1)": {
+      "annotation": "transferred label",
+      "n_cells": 19,
+      "markers": [
+        {
+          "gene": "MMP1",
+          "lfc": 4.12,
+          "pct1": 0.186,
+          "pct2": 0.027
+        },
+        {
+          "gene": "POSTN",
+          "lfc": 3.97,
+          "pct1": 0.682,
+          "pct2": 0.087
+        },
+        {
+          "gene": "COL3A1",
+          "lfc": 3.89,
+          "pct1": 0.99,
+          "pct2": 0.221
+        },
+        {
+          "gene": "COL1A1",
+          "lfc": 3.81,
+          "pct1": 0.997,
+          "pct2": 0.313
+        },
+        {
+          "gene": "COL1A2",
+          "lfc": 3.7,
+          "pct1": 0.986,
+          "pct2": 0.232
+        },
+        {
+          "gene": "COL12A1",
+          "lfc": 3.28,
+          "pct1": 0.328,
+          "pct2": 0.051
+        },
+        {
+          "gene": "COL5A1",
+          "lfc": 3.14,
+          "pct1": 0.348,
+          "pct2": 0.058
+        },
+        {
+          "gene": "VCAN",
+          "lfc": 3.09,
+          "pct1": 0.321,
+          "pct2": 0.051
+        },
+        {
+          "gene": "LUM",
+          "lfc": 3.03,
+          "pct1": 0.628,
+          "pct2": 0.13
+        },
+        {
+          "gene": "ADAM12",
+          "lfc": 2.84,
+          "pct1": 0.25,
+          "pct2": 0.047
+        },
+        {
+          "gene": "FN1",
+          "lfc": 2.8,
+          "pct1": 0.547,
+          "pct2": 0.138
+        },
+        {
+          "gene": "COL6A3",
+          "lfc": 2.79,
+          "pct1": 0.777,
+          "pct2": 0.185
+        },
+        {
+          "gene": "MMP2",
+          "lfc": 2.79,
+          "pct1": 0.696,
+          "pct2": 0.177
+        },
+        {
+          "gene": "COL5A2",
+          "lfc": 2.69,
+          "pct1": 0.294,
+          "pct2": 0.068
+        },
+        {
+          "gene": "SFRP2",
+          "lfc": 2.67,
+          "pct1": 0.402,
+          "pct2": 0.082
+        },
+        {
+          "gene": "ANGPTL2",
+          "lfc": 2.63,
+          "pct1": 0.304,
+          "pct2": 0.071
+        },
+        {
+          "gene": "BGN",
+          "lfc": 2.6,
+          "pct1": 0.473,
+          "pct2": 0.114
+        },
+        {
+          "gene": "SPARC",
+          "lfc": 2.53,
+          "pct1": 0.713,
+          "pct2": 0.229
+        },
+        {
+          "gene": "COL16A1",
+          "lfc": 2.42,
+          "pct1": 0.301,
+          "pct2": 0.08
+        },
+        {
+          "gene": "THBS2",
+          "lfc": 2.41,
+          "pct1": 0.402,
+          "pct2": 0.095
+        }
+      ]
+    },
+    "NK / gamma-delta T": {
+      "annotation": "transferred label",
+      "n_cells": 116,
+      "markers": [
+        {
+          "gene": "GNLY",
+          "lfc": 4.28,
+          "pct1": 0.464,
+          "pct2": 0.06
+        },
+        {
+          "gene": "SH2D1B",
+          "lfc": 3.95,
+          "pct1": 0.171,
+          "pct2": 0.018
+        },
+        {
+          "gene": "CTSW",
+          "lfc": 3.95,
+          "pct1": 0.334,
+          "pct2": 0.037
+        },
+        {
+          "gene": "NCAM1",
+          "lfc": 3.73,
+          "pct1": 0.154,
+          "pct2": 0.023
+        },
+        {
+          "gene": "KLRC3",
+          "lfc": 3.7,
+          "pct1": 0.332,
+          "pct2": 0.051
+        },
+        {
+          "gene": "IL2RB",
+          "lfc": 3.38,
+          "pct1": 0.254,
+          "pct2": 0.041
+        },
+        {
+          "gene": "NKG7",
+          "lfc": 3.23,
+          "pct1": 0.408,
+          "pct2": 0.078
+        },
+        {
+          "gene": "PTGDR",
+          "lfc": 3.1,
+          "pct1": 0.227,
+          "pct2": 0.046
+        },
+        {
+          "gene": "XCL1/2",
+          "lfc": 2.66,
+          "pct1": 0.142,
+          "pct2": 0.031
+        },
+        {
+          "gene": "TRDC",
+          "lfc": 2.64,
+          "pct1": 0.171,
+          "pct2": 0.045
+        },
+        {
+          "gene": "CD7",
+          "lfc": 2.61,
+          "pct1": 0.168,
+          "pct2": 0.049
+        },
+        {
+          "gene": "KLRK1",
+          "lfc": 2.59,
+          "pct1": 0.142,
+          "pct2": 0.039
+        },
+        {
+          "gene": "PLCG2",
+          "lfc": 2.41,
+          "pct1": 0.154,
+          "pct2": 0.054
+        },
+        {
+          "gene": "PLAC8",
+          "lfc": 2.14,
+          "pct1": 0.178,
+          "pct2": 0.055
+        },
+        {
+          "gene": "CD247",
+          "lfc": 2.14,
+          "pct1": 0.23,
+          "pct2": 0.066
+        },
+        {
+          "gene": "CCL5",
+          "lfc": 2.12,
+          "pct1": 0.441,
+          "pct2": 0.163
+        },
+        {
+          "gene": "SH2D1A",
+          "lfc": 2.08,
+          "pct1": 0.118,
+          "pct2": 0.039
+        },
+        {
+          "gene": "GZMA",
+          "lfc": 2.04,
+          "pct1": 0.197,
+          "pct2": 0.067
+        },
+        {
+          "gene": "PRF1",
+          "lfc": 2,
+          "pct1": 0.123,
+          "pct2": 0.049
+        },
+        {
+          "gene": "SAMD3",
+          "lfc": 1.91,
+          "pct1": 0.102,
+          "pct2": 0.035
+        }
+      ]
+    },
+    "Papillary/universal fibroblast (CD34/MFAP5)": {
+      "annotation": "transferred label",
+      "n_cells": 1457,
+      "markers": [
+        {
+          "gene": "DCN",
+          "lfc": 3.48,
+          "pct1": 0.952,
+          "pct2": 0.237
+        },
+        {
+          "gene": "FBLN1",
+          "lfc": 3.31,
+          "pct1": 0.616,
+          "pct2": 0.094
+        },
+        {
+          "gene": "CFD",
+          "lfc": 3.23,
+          "pct1": 0.623,
+          "pct2": 0.123
+        },
+        {
+          "gene": "THBS2",
+          "lfc": 3.2,
+          "pct1": 0.572,
+          "pct2": 0.082
+        },
+        {
+          "gene": "MMP2",
+          "lfc": 3.15,
+          "pct1": 0.799,
+          "pct2": 0.16
+        },
+        {
+          "gene": "COL1A2",
+          "lfc": 3.12,
+          "pct1": 0.95,
+          "pct2": 0.213
+        },
+        {
+          "gene": "COL1A1",
+          "lfc": 3.07,
+          "pct1": 0.98,
+          "pct2": 0.295
+        },
+        {
+          "gene": "FSTL1",
+          "lfc": 2.88,
+          "pct1": 0.655,
+          "pct2": 0.128
+        },
+        {
+          "gene": "SFRP2",
+          "lfc": 2.88,
+          "pct1": 0.459,
+          "pct2": 0.072
+        },
+        {
+          "gene": "MFAP4",
+          "lfc": 2.87,
+          "pct1": 0.516,
+          "pct2": 0.086
+        },
+        {
+          "gene": "C1R",
+          "lfc": 2.84,
+          "pct1": 0.708,
+          "pct2": 0.153
+        },
+        {
+          "gene": "SCARA5",
+          "lfc": 2.77,
+          "pct1": 0.22,
+          "pct2": 0.036
+        },
+        {
+          "gene": "FBLN2",
+          "lfc": 2.72,
+          "pct1": 0.507,
+          "pct2": 0.092
+        },
+        {
+          "gene": "CCDC80",
+          "lfc": 2.7,
+          "pct1": 0.599,
+          "pct2": 0.121
+        },
+        {
+          "gene": "GAS1",
+          "lfc": 2.66,
+          "pct1": 0.343,
+          "pct2": 0.06
+        },
+        {
+          "gene": "SLIT3",
+          "lfc": 2.64,
+          "pct1": 0.274,
+          "pct2": 0.044
+        },
+        {
+          "gene": "COL3A1",
+          "lfc": 2.61,
+          "pct1": 0.862,
+          "pct2": 0.205
+        },
+        {
+          "gene": "ACKR3",
+          "lfc": 2.59,
+          "pct1": 0.254,
+          "pct2": 0.044
+        },
+        {
+          "gene": "CFH",
+          "lfc": 2.57,
+          "pct1": 0.287,
+          "pct2": 0.053
+        },
+        {
+          "gene": "MGP",
+          "lfc": 2.54,
+          "pct1": 0.551,
+          "pct2": 0.128
+        }
+      ]
+    },
+    "Plasma cell": {
+      "annotation": "transferred label",
+      "n_cells": 1846,
+      "markers": [
+        {
+          "gene": "IGHA1",
+          "lfc": 4.86,
+          "pct1": 0.388,
+          "pct2": 0.082
+        },
+        {
+          "gene": "IGKC",
+          "lfc": 4.67,
+          "pct1": 0.646,
+          "pct2": 0.162
+        },
+        {
+          "gene": "IGHG1/2",
+          "lfc": 4.64,
+          "pct1": 0.488,
+          "pct2": 0.145
+        },
+        {
+          "gene": "IGLC1/2",
+          "lfc": 4.58,
+          "pct1": 0.356,
+          "pct2": 0.094
+        },
+        {
+          "gene": "IGLL5",
+          "lfc": 4.53,
+          "pct1": 0.394,
+          "pct2": 0.107
+        },
+        {
+          "gene": "JCHAIN",
+          "lfc": 4.5,
+          "pct1": 0.304,
+          "pct2": 0.044
+        },
+        {
+          "gene": "IGHV1-69",
+          "lfc": 4.31,
+          "pct1": 0.174,
+          "pct2": 0.041
+        },
+        {
+          "gene": "MZB1",
+          "lfc": 3.95,
+          "pct1": 0.293,
+          "pct2": 0.042
+        },
+        {
+          "gene": "IGHM",
+          "lfc": 3.94,
+          "pct1": 0.248,
+          "pct2": 0.053
+        },
+        {
+          "gene": "CD79A",
+          "lfc": 3.91,
+          "pct1": 0.262,
+          "pct2": 0.045
+        },
+        {
+          "gene": "POU2AF1",
+          "lfc": 3.8,
+          "pct1": 0.19,
+          "pct2": 0.031
+        },
+        {
+          "gene": "DERL3",
+          "lfc": 2.9,
+          "pct1": 0.171,
+          "pct2": 0.037
+        },
+        {
+          "gene": "GCDH",
+          "lfc": 2.72,
+          "pct1": 0.194,
+          "pct2": 0.059
+        },
+        {
+          "gene": "IGLL1",
+          "lfc": 2.66,
+          "pct1": 0.409,
+          "pct2": 0.342
+        },
+        {
+          "gene": "CD79B",
+          "lfc": 2.58,
+          "pct1": 0.116,
+          "pct2": 0.049
+        },
+        {
+          "gene": "PIM2",
+          "lfc": 2.28,
+          "pct1": 0.262,
+          "pct2": 0.092
+        },
+        {
+          "gene": "ITM2C",
+          "lfc": 2.24,
+          "pct1": 0.184,
+          "pct2": 0.06
+        },
+        {
+          "gene": "IRF4",
+          "lfc": 2.01,
+          "pct1": 0.132,
+          "pct2": 0.045
+        },
+        {
+          "gene": "XBP1",
+          "lfc": 1.88,
+          "pct1": 0.233,
+          "pct2": 0.105
+        },
+        {
+          "gene": "CD37",
+          "lfc": 1.56,
+          "pct1": 0.158,
+          "pct2": 0.145
+        }
+      ]
+    },
+    "Plasmacytoid DC (pDC)": {
+      "annotation": "transferred label",
+      "n_cells": 309,
+      "markers": [
+        {
+          "gene": "GZMB",
+          "lfc": 4.66,
+          "pct1": 0.504,
+          "pct2": 0.026
+        },
+        {
+          "gene": "PLD4",
+          "lfc": 4.09,
+          "pct1": 0.432,
+          "pct2": 0.031
+        },
+        {
+          "gene": "PLAC8",
+          "lfc": 4.01,
+          "pct1": 0.557,
+          "pct2": 0.051
+        },
+        {
+          "gene": "CLEC4C",
+          "lfc": 3.88,
+          "pct1": 0.377,
+          "pct2": 0.03
+        },
+        {
+          "gene": "IRF7",
+          "lfc": 3.59,
+          "pct1": 0.488,
+          "pct2": 0.064
+        },
+        {
+          "gene": "JCHAIN",
+          "lfc": 3.3,
+          "pct1": 0.563,
+          "pct2": 0.047
+        },
+        {
+          "gene": "IRF8",
+          "lfc": 3.17,
+          "pct1": 0.731,
+          "pct2": 0.167
+        },
+        {
+          "gene": "IL3RA",
+          "lfc": 2.99,
+          "pct1": 0.3,
+          "pct2": 0.043
+        },
+        {
+          "gene": "DERL3",
+          "lfc": 2.98,
+          "pct1": 0.314,
+          "pct2": 0.038
+        },
+        {
+          "gene": "ITM2C",
+          "lfc": 2.89,
+          "pct1": 0.394,
+          "pct2": 0.06
+        },
+        {
+          "gene": "CCDC50",
+          "lfc": 2.81,
+          "pct1": 0.437,
+          "pct2": 0.081
+        },
+        {
+          "gene": "RUNX2",
+          "lfc": 2.73,
+          "pct1": 0.318,
+          "pct2": 0.053
+        },
+        {
+          "gene": "MZB1",
+          "lfc": 2.72,
+          "pct1": 0.323,
+          "pct2": 0.046
+        },
+        {
+          "gene": "SPIB",
+          "lfc": 2.6,
+          "pct1": 0.366,
+          "pct2": 0.071
+        },
+        {
+          "gene": "SCAMP5",
+          "lfc": 2.56,
+          "pct1": 0.217,
+          "pct2": 0.035
+        },
+        {
+          "gene": "PTPRS",
+          "lfc": 2.53,
+          "pct1": 0.463,
+          "pct2": 0.1
+        },
+        {
+          "gene": "BCL11A",
+          "lfc": 2.45,
+          "pct1": 0.284,
+          "pct2": 0.054
+        },
+        {
+          "gene": "TCL1A",
+          "lfc": 2.45,
+          "pct1": 0.224,
+          "pct2": 0.05
+        },
+        {
+          "gene": "CARD11",
+          "lfc": 2.44,
+          "pct1": 0.302,
+          "pct2": 0.066
+        },
+        {
+          "gene": "ALOX5AP",
+          "lfc": 2.41,
+          "pct1": 0.449,
+          "pct2": 0.103
+        }
+      ]
+    },
+    "Pro-inflammatory perivascular fibroblast (CXCL9/CCL19)": {
+      "annotation": "transferred label",
+      "n_cells": 1404,
+      "markers": [
+        {
+          "gene": "ABI3BP",
+          "lfc": 3.36,
+          "pct1": 0.574,
+          "pct2": 0.065
+        },
+        {
+          "gene": "CCL19",
+          "lfc": 3.25,
+          "pct1": 0.716,
+          "pct2": 0.165
+        },
+        {
+          "gene": "TIMP1",
+          "lfc": 3.06,
+          "pct1": 0.707,
+          "pct2": 0.153
+        },
+        {
+          "gene": "TNC",
+          "lfc": 2.96,
+          "pct1": 0.46,
+          "pct2": 0.062
+        },
+        {
+          "gene": "FN1",
+          "lfc": 2.95,
+          "pct1": 0.625,
+          "pct2": 0.125
+        },
+        {
+          "gene": "LOXL2",
+          "lfc": 2.92,
+          "pct1": 0.347,
+          "pct2": 0.045
+        },
+        {
+          "gene": "COL6A3",
+          "lfc": 2.89,
+          "pct1": 0.819,
+          "pct2": 0.168
+        },
+        {
+          "gene": "POSTN",
+          "lfc": 2.81,
+          "pct1": 0.409,
+          "pct2": 0.08
+        },
+        {
+          "gene": "COL6A1",
+          "lfc": 2.61,
+          "pct1": 0.916,
+          "pct2": 0.251
+        },
+        {
+          "gene": "C3",
+          "lfc": 2.58,
+          "pct1": 0.718,
+          "pct2": 0.16
+        },
+        {
+          "gene": "COL6A2",
+          "lfc": 2.43,
+          "pct1": 0.922,
+          "pct2": 0.278
+        },
+        {
+          "gene": "TMEM119",
+          "lfc": 2.43,
+          "pct1": 0.294,
+          "pct2": 0.046
+        },
+        {
+          "gene": "VEGFA",
+          "lfc": 2.39,
+          "pct1": 0.372,
+          "pct2": 0.081
+        },
+        {
+          "gene": "PDGFRB",
+          "lfc": 2.31,
+          "pct1": 0.493,
+          "pct2": 0.096
+        },
+        {
+          "gene": "TIMP3",
+          "lfc": 2.25,
+          "pct1": 0.456,
+          "pct2": 0.118
+        },
+        {
+          "gene": "COL5A3",
+          "lfc": 2.23,
+          "pct1": 0.214,
+          "pct2": 0.037
+        },
+        {
+          "gene": "BGN",
+          "lfc": 2.2,
+          "pct1": 0.493,
+          "pct2": 0.104
+        },
+        {
+          "gene": "COL5A2",
+          "lfc": 2.19,
+          "pct1": 0.336,
+          "pct2": 0.061
+        },
+        {
+          "gene": "COL4A2",
+          "lfc": 2.12,
+          "pct1": 0.34,
+          "pct2": 0.065
+        },
+        {
+          "gene": "ALDH1A3",
+          "lfc": 2.07,
+          "pct1": 0.174,
+          "pct2": 0.035
+        }
+      ]
+    },
+    "Proliferating": {
+      "annotation": "transferred label",
+      "n_cells": 6155,
+      "markers": [
+        {
+          "gene": "TOP2A",
+          "lfc": 2.68,
+          "pct1": 0.124,
+          "pct2": 0.034
+        },
+        {
+          "gene": "MKI67",
+          "lfc": 2.57,
+          "pct1": 0.107,
+          "pct2": 0.026
+        },
+        {
+          "gene": "H3C2",
+          "lfc": 2.51,
+          "pct1": 0.22,
+          "pct2": 0.072
+        },
+        {
+          "gene": "RRM2",
+          "lfc": 2.39,
+          "pct1": 0.104,
+          "pct2": 0.026
+        },
+        {
+          "gene": "KIF23",
+          "lfc": 2.18,
+          "pct1": 0.1,
+          "pct2": 0.032
+        },
+        {
+          "gene": "H3C8",
+          "lfc": 2.05,
+          "pct1": 0.28,
+          "pct2": 0.104
+        },
+        {
+          "gene": "UBE2C",
+          "lfc": 1.91,
+          "pct1": 0.104,
+          "pct2": 0.036
+        },
+        {
+          "gene": "H3C10",
+          "lfc": 1.83,
+          "pct1": 0.219,
+          "pct2": 0.092
+        },
+        {
+          "gene": "H4C3",
+          "lfc": 1.8,
+          "pct1": 0.242,
+          "pct2": 0.099
+        },
+        {
+          "gene": "HMGB2",
+          "lfc": 1.79,
+          "pct1": 0.222,
+          "pct2": 0.087
+        },
+        {
+          "gene": "TACC3",
+          "lfc": 1.72,
+          "pct1": 0.126,
+          "pct2": 0.044
+        },
+        {
+          "gene": "TK1",
+          "lfc": 1.55,
+          "pct1": 0.12,
+          "pct2": 0.049
+        },
+        {
+          "gene": "H2BC5",
+          "lfc": 1.52,
+          "pct1": 0.362,
+          "pct2": 0.227
+        },
+        {
+          "gene": "ZWINT",
+          "lfc": 1.5,
+          "pct1": 0.112,
+          "pct2": 0.049
+        },
+        {
+          "gene": "STMN1",
+          "lfc": 1.39,
+          "pct1": 0.134,
+          "pct2": 0.058
+        },
+        {
+          "gene": "CD6",
+          "lfc": 1.29,
+          "pct1": 0.166,
+          "pct2": 0.066
+        },
+        {
+          "gene": "PCNA",
+          "lfc": 1.24,
+          "pct1": 0.126,
+          "pct2": 0.061
+        },
+        {
+          "gene": "PTPN7",
+          "lfc": 1.23,
+          "pct1": 0.16,
+          "pct2": 0.071
+        },
+        {
+          "gene": "LMNB1",
+          "lfc": 1.23,
+          "pct1": 0.133,
+          "pct2": 0.059
+        },
+        {
+          "gene": "CD2",
+          "lfc": 1.17,
+          "pct1": 0.258,
+          "pct2": 0.106
+        }
+      ]
+    },
+    "Proliferating fibroblast": {
+      "annotation": "transferred label",
+      "n_cells": 101,
+      "markers": [
+        {
+          "gene": "MMP1",
+          "lfc": 4.08,
+          "pct1": 0.239,
+          "pct2": 0.027
+        },
+        {
+          "gene": "COL3A1",
+          "lfc": 2.82,
+          "pct1": 0.881,
+          "pct2": 0.221
+        },
+        {
+          "gene": "COL1A1",
+          "lfc": 2.82,
+          "pct1": 0.986,
+          "pct2": 0.312
+        },
+        {
+          "gene": "TNC",
+          "lfc": 2.73,
+          "pct1": 0.397,
+          "pct2": 0.072
+        },
+        {
+          "gene": "VCAN",
+          "lfc": 2.72,
+          "pct1": 0.314,
+          "pct2": 0.051
+        },
+        {
+          "gene": "MMP2",
+          "lfc": 2.63,
+          "pct1": 0.811,
+          "pct2": 0.176
+        },
+        {
+          "gene": "COL1A2",
+          "lfc": 2.62,
+          "pct1": 0.95,
+          "pct2": 0.232
+        },
+        {
+          "gene": "COL5A1",
+          "lfc": 2.42,
+          "pct1": 0.317,
+          "pct2": 0.058
+        },
+        {
+          "gene": "LUM",
+          "lfc": 2.35,
+          "pct1": 0.611,
+          "pct2": 0.129
+        },
+        {
+          "gene": "NNMT",
+          "lfc": 2.3,
+          "pct1": 0.442,
+          "pct2": 0.086
+        },
+        {
+          "gene": "ANGPTL2",
+          "lfc": 2.29,
+          "pct1": 0.358,
+          "pct2": 0.07
+        },
+        {
+          "gene": "DTL",
+          "lfc": 2.25,
+          "pct1": 0.144,
+          "pct2": 0.025
+        },
+        {
+          "gene": "MME",
+          "lfc": 2.25,
+          "pct1": 0.172,
+          "pct2": 0.034
+        },
+        {
+          "gene": "CCN2",
+          "lfc": 2.22,
+          "pct1": 0.219,
+          "pct2": 0.051
+        },
+        {
+          "gene": "COL5A2",
+          "lfc": 2.17,
+          "pct1": 0.325,
+          "pct2": 0.068
+        },
+        {
+          "gene": "TWIST2",
+          "lfc": 2.16,
+          "pct1": 0.289,
+          "pct2": 0.057
+        },
+        {
+          "gene": "MXRA8",
+          "lfc": 2.15,
+          "pct1": 0.319,
+          "pct2": 0.071
+        },
+        {
+          "gene": "ACKR3",
+          "lfc": 2.14,
+          "pct1": 0.236,
+          "pct2": 0.049
+        },
+        {
+          "gene": "FBN1",
+          "lfc": 2.12,
+          "pct1": 0.272,
+          "pct2": 0.055
+        },
+        {
+          "gene": "FSTL1",
+          "lfc": 2.11,
+          "pct1": 0.586,
+          "pct2": 0.142
+        }
+      ]
+    },
+    "Proliferating keratinocyte": {
+      "annotation": "transferred label",
+      "n_cells": 432,
+      "markers": [
+        {
+          "gene": "RRM2",
+          "lfc": 2.94,
+          "pct1": 0.154,
+          "pct2": 0.025
+        },
+        {
+          "gene": "KRT5",
+          "lfc": 2.7,
+          "pct1": 0.557,
+          "pct2": 0.115
+        },
+        {
+          "gene": "NUSAP1",
+          "lfc": 2.5,
+          "pct1": 0.14,
+          "pct2": 0.026
+        },
+        {
+          "gene": "KRT14",
+          "lfc": 2.48,
+          "pct1": 0.603,
+          "pct2": 0.147
+        },
+        {
+          "gene": "TK1",
+          "lfc": 2.46,
+          "pct1": 0.181,
+          "pct2": 0.048
+        },
+        {
+          "gene": "CDK1",
+          "lfc": 2.42,
+          "pct1": 0.109,
+          "pct2": 0.026
+        },
+        {
+          "gene": "TYMS",
+          "lfc": 2.37,
+          "pct1": 0.104,
+          "pct2": 0.025
+        },
+        {
+          "gene": "COL17A1",
+          "lfc": 2.34,
+          "pct1": 0.301,
+          "pct2": 0.059
+        },
+        {
+          "gene": "CENPF",
+          "lfc": 2.31,
+          "pct1": 0.101,
+          "pct2": 0.026
+        },
+        {
+          "gene": "H3C2",
+          "lfc": 2.26,
+          "pct1": 0.209,
+          "pct2": 0.074
+        },
+        {
+          "gene": "DSC3",
+          "lfc": 2.24,
+          "pct1": 0.345,
+          "pct2": 0.082
+        },
+        {
+          "gene": "MKI67",
+          "lfc": 2.23,
+          "pct1": 0.109,
+          "pct2": 0.027
+        },
+        {
+          "gene": "KIF23",
+          "lfc": 2.23,
+          "pct1": 0.127,
+          "pct2": 0.033
+        },
+        {
+          "gene": "TOP2A",
+          "lfc": 2.18,
+          "pct1": 0.128,
+          "pct2": 0.035
+        },
+        {
+          "gene": "COL7A1",
+          "lfc": 2.17,
+          "pct1": 0.229,
+          "pct2": 0.055
+        },
+        {
+          "gene": "PKMYT1",
+          "lfc": 2.16,
+          "pct1": 0.124,
+          "pct2": 0.03
+        },
+        {
+          "gene": "TPX2",
+          "lfc": 2.14,
+          "pct1": 0.126,
+          "pct2": 0.035
+        },
+        {
+          "gene": "PRC1",
+          "lfc": 2.14,
+          "pct1": 0.121,
+          "pct2": 0.031
+        },
+        {
+          "gene": "UBE2C",
+          "lfc": 2.08,
+          "pct1": 0.129,
+          "pct2": 0.036
+        },
+        {
+          "gene": "KRT17",
+          "lfc": 2.07,
+          "pct1": 0.293,
+          "pct2": 0.069
+        }
+      ]
+    },
+    "Regulatory T (Treg)": {
+      "annotation": "transferred label",
+      "n_cells": 290,
+      "markers": [
+        {
+          "gene": "CTLA4",
+          "lfc": 4.28,
+          "pct1": 0.335,
+          "pct2": 0.041
+        },
+        {
+          "gene": "FOXP3",
+          "lfc": 3.96,
+          "pct1": 0.275,
+          "pct2": 0.039
+        },
+        {
+          "gene": "IL2RA",
+          "lfc": 3.75,
+          "pct1": 0.223,
+          "pct2": 0.041
+        },
+        {
+          "gene": "TNFRSF4",
+          "lfc": 3.63,
+          "pct1": 0.239,
+          "pct2": 0.059
+        },
+        {
+          "gene": "TNFRSF9",
+          "lfc": 3.11,
+          "pct1": 0.125,
+          "pct2": 0.046
+        },
+        {
+          "gene": "ICOS",
+          "lfc": 3.07,
+          "pct1": 0.134,
+          "pct2": 0.032
+        },
+        {
+          "gene": "TIGIT",
+          "lfc": 2.85,
+          "pct1": 0.194,
+          "pct2": 0.053
+        },
+        {
+          "gene": "CCR4",
+          "lfc": 2.72,
+          "pct1": 0.155,
+          "pct2": 0.048
+        },
+        {
+          "gene": "TNFRSF18",
+          "lfc": 2.62,
+          "pct1": 0.14,
+          "pct2": 0.046
+        },
+        {
+          "gene": "IL2RB",
+          "lfc": 2.32,
+          "pct1": 0.114,
+          "pct2": 0.042
+        },
+        {
+          "gene": "CD3E",
+          "lfc": 2.19,
+          "pct1": 0.2,
+          "pct2": 0.074
+        },
+        {
+          "gene": "BATF",
+          "lfc": 2.19,
+          "pct1": 0.134,
+          "pct2": 0.054
+        },
+        {
+          "gene": "TRBC1",
+          "lfc": 2.14,
+          "pct1": 0.219,
+          "pct2": 0.097
+        },
+        {
+          "gene": "TRAC",
+          "lfc": 2.1,
+          "pct1": 0.248,
+          "pct2": 0.107
+        },
+        {
+          "gene": "SPOCK2",
+          "lfc": 2.06,
+          "pct1": 0.254,
+          "pct2": 0.1
+        },
+        {
+          "gene": "TRBC2",
+          "lfc": 2.05,
+          "pct1": 0.279,
+          "pct2": 0.124
+        },
+        {
+          "gene": "CD2",
+          "lfc": 2.01,
+          "pct1": 0.253,
+          "pct2": 0.108
+        },
+        {
+          "gene": "ITK",
+          "lfc": 1.93,
+          "pct1": 0.101,
+          "pct2": 0.042
+        },
+        {
+          "gene": "CD3D",
+          "lfc": 1.87,
+          "pct1": 0.207,
+          "pct2": 0.1
+        },
+        {
+          "gene": "LCK",
+          "lfc": 1.86,
+          "pct1": 0.119,
+          "pct2": 0.064
+        }
+      ]
+    },
+    "Reticular fibroblast": {
+      "annotation": "transferred label",
+      "n_cells": 1185,
+      "markers": [
+        {
+          "gene": "CFH",
+          "lfc": 2.93,
+          "pct1": 0.419,
+          "pct2": 0.049
+        },
+        {
+          "gene": "CXCL12",
+          "lfc": 2.75,
+          "pct1": 0.865,
+          "pct2": 0.241
+        },
+        {
+          "gene": "MGP",
+          "lfc": 2.69,
+          "pct1": 0.635,
+          "pct2": 0.126
+        },
+        {
+          "gene": "APOD",
+          "lfc": 2.64,
+          "pct1": 0.642,
+          "pct2": 0.14
+        },
+        {
+          "gene": "C3",
+          "lfc": 2.61,
+          "pct1": 0.746,
+          "pct2": 0.16
+        },
+        {
+          "gene": "COL15A1",
+          "lfc": 2.48,
+          "pct1": 0.372,
+          "pct2": 0.049
+        },
+        {
+          "gene": "LAMA4",
+          "lfc": 2.44,
+          "pct1": 0.499,
+          "pct2": 0.077
+        },
+        {
+          "gene": "PDGFRB",
+          "lfc": 2.36,
+          "pct1": 0.553,
+          "pct2": 0.095
+        },
+        {
+          "gene": "MXRA8",
+          "lfc": 2.31,
+          "pct1": 0.413,
+          "pct2": 0.063
+        },
+        {
+          "gene": "MEG3",
+          "lfc": 2.3,
+          "pct1": 0.304,
+          "pct2": 0.045
+        },
+        {
+          "gene": "COL6A1",
+          "lfc": 2.23,
+          "pct1": 0.923,
+          "pct2": 0.252
+        },
+        {
+          "gene": "CCDC80",
+          "lfc": 2.22,
+          "pct1": 0.625,
+          "pct2": 0.121
+        },
+        {
+          "gene": "VCAN",
+          "lfc": 2.21,
+          "pct1": 0.271,
+          "pct2": 0.046
+        },
+        {
+          "gene": "CDH11",
+          "lfc": 2.2,
+          "pct1": 0.285,
+          "pct2": 0.045
+        },
+        {
+          "gene": "FBLN1",
+          "lfc": 2.18,
+          "pct1": 0.562,
+          "pct2": 0.096
+        },
+        {
+          "gene": "DCN",
+          "lfc": 2.18,
+          "pct1": 0.906,
+          "pct2": 0.239
+        },
+        {
+          "gene": "COL6A3",
+          "lfc": 2.16,
+          "pct1": 0.787,
+          "pct2": 0.17
+        },
+        {
+          "gene": "COL3A1",
+          "lfc": 2.16,
+          "pct1": 0.895,
+          "pct2": 0.205
+        },
+        {
+          "gene": "HSPG2",
+          "lfc": 2.16,
+          "pct1": 0.454,
+          "pct2": 0.084
+        },
+        {
+          "gene": "COL6A2",
+          "lfc": 2.16,
+          "pct1": 0.93,
+          "pct2": 0.279
+        }
+      ]
+    },
+    "SPP1+ macrophage (hypoxic/glycolytic)": {
+      "annotation": "transferred label",
+      "n_cells": 1467,
+      "markers": [
+        {
+          "gene": "SPP1",
+          "lfc": 4.02,
+          "pct1": 0.51,
+          "pct2": 0.05
+        },
+        {
+          "gene": "FBP1",
+          "lfc": 3.53,
+          "pct1": 0.824,
+          "pct2": 0.119
+        },
+        {
+          "gene": "CHI3L1",
+          "lfc": 3.03,
+          "pct1": 0.873,
+          "pct2": 0.168
+        },
+        {
+          "gene": "MMP12",
+          "lfc": 2.76,
+          "pct1": 0.326,
+          "pct2": 0.044
+        },
+        {
+          "gene": "LYZ",
+          "lfc": 2.49,
+          "pct1": 0.998,
+          "pct2": 0.472
+        },
+        {
+          "gene": "HSD11B1",
+          "lfc": 2.31,
+          "pct1": 0.332,
+          "pct2": 0.049
+        },
+        {
+          "gene": "NCF1",
+          "lfc": 2.29,
+          "pct1": 0.673,
+          "pct2": 0.17
+        },
+        {
+          "gene": "ITGAX",
+          "lfc": 2.13,
+          "pct1": 0.492,
+          "pct2": 0.101
+        },
+        {
+          "gene": "ITGAM",
+          "lfc": 2.09,
+          "pct1": 0.369,
+          "pct2": 0.065
+        },
+        {
+          "gene": "PLAUR",
+          "lfc": 2.01,
+          "pct1": 0.426,
+          "pct2": 0.084
+        },
+        {
+          "gene": "HK2",
+          "lfc": 2,
+          "pct1": 0.203,
+          "pct2": 0.033
+        },
+        {
+          "gene": "TGM2",
+          "lfc": 1.93,
+          "pct1": 0.212,
+          "pct2": 0.035
+        },
+        {
+          "gene": "BCAT1",
+          "lfc": 1.9,
+          "pct1": 0.354,
+          "pct2": 0.065
+        },
+        {
+          "gene": "MT1G",
+          "lfc": 1.9,
+          "pct1": 0.214,
+          "pct2": 0.047
+        },
+        {
+          "gene": "LILRB4",
+          "lfc": 1.88,
+          "pct1": 0.625,
+          "pct2": 0.148
+        },
+        {
+          "gene": "NCF2",
+          "lfc": 1.85,
+          "pct1": 0.47,
+          "pct2": 0.103
+        },
+        {
+          "gene": "ALOX5",
+          "lfc": 1.83,
+          "pct1": 0.472,
+          "pct2": 0.096
+        },
+        {
+          "gene": "SERPINA1",
+          "lfc": 1.83,
+          "pct1": 0.42,
+          "pct2": 0.094
+        },
+        {
+          "gene": "LGALS2",
+          "lfc": 1.82,
+          "pct1": 0.4,
+          "pct2": 0.078
+        },
+        {
+          "gene": "ITGB2",
+          "lfc": 1.78,
+          "pct1": 0.77,
+          "pct2": 0.218
+        }
+      ]
+    },
+    "Sebaceous gland": {
+      "annotation": "transferred label",
+      "n_cells": 473,
+      "markers": [
+        {
+          "gene": "CIDEA",
+          "lfc": 2.99,
+          "pct1": 0.144,
+          "pct2": 0.026
+        },
+        {
+          "gene": "PLIN5",
+          "lfc": 2.79,
+          "pct1": 0.126,
+          "pct2": 0.024
+        },
+        {
+          "gene": "PLIN4",
+          "lfc": 2.79,
+          "pct1": 0.138,
+          "pct2": 0.028
+        },
+        {
+          "gene": "GAL",
+          "lfc": 2.72,
+          "pct1": 0.118,
+          "pct2": 0.027
+        },
+        {
+          "gene": "ALDH1L1",
+          "lfc": 2.61,
+          "pct1": 0.107,
+          "pct2": 0.023
+        },
+        {
+          "gene": "FABP7",
+          "lfc": 2.56,
+          "pct1": 0.1,
+          "pct2": 0.02
+        },
+        {
+          "gene": "ACSBG1",
+          "lfc": 2.52,
+          "pct1": 0.11,
+          "pct2": 0.026
+        },
+        {
+          "gene": "MSMO1",
+          "lfc": 2.14,
+          "pct1": 0.102,
+          "pct2": 0.032
+        },
+        {
+          "gene": "FADS1",
+          "lfc": 1.77,
+          "pct1": 0.109,
+          "pct2": 0.05
+        },
+        {
+          "gene": "FAR2",
+          "lfc": 1.74,
+          "pct1": 0.102,
+          "pct2": 0.042
+        },
+        {
+          "gene": "OLIG1",
+          "lfc": 1.68,
+          "pct1": 0.101,
+          "pct2": 0.034
+        },
+        {
+          "gene": "SHC4",
+          "lfc": 1.65,
+          "pct1": 0.102,
+          "pct2": 0.033
+        },
+        {
+          "gene": "DNAH14",
+          "lfc": 1.64,
+          "pct1": 0.104,
+          "pct2": 0.034
+        },
+        {
+          "gene": "PC",
+          "lfc": 1.62,
+          "pct1": 0.143,
+          "pct2": 0.051
+        },
+        {
+          "gene": "PMVK",
+          "lfc": 1.62,
+          "pct1": 0.146,
+          "pct2": 0.066
+        },
+        {
+          "gene": "BDH1",
+          "lfc": 1.59,
+          "pct1": 0.192,
+          "pct2": 0.075
+        },
+        {
+          "gene": "CPAMD8",
+          "lfc": 1.55,
+          "pct1": 0.141,
+          "pct2": 0.053
+        },
+        {
+          "gene": "CHRM3",
+          "lfc": 1.49,
+          "pct1": 0.102,
+          "pct2": 0.034
+        },
+        {
+          "gene": "RRAD",
+          "lfc": 1.49,
+          "pct1": 0.1,
+          "pct2": 0.038
+        },
+        {
+          "gene": "IFNA6",
+          "lfc": 1.46,
+          "pct1": 0.161,
+          "pct2": 0.061
+        }
+      ]
+    },
+    "Sebocyte (sebaceous gland)": {
+      "annotation": "transferred label",
+      "n_cells": 119,
+      "markers": [
+        {
+          "gene": "INSIG1",
+          "lfc": 2.89,
+          "pct1": 0.15,
+          "pct2": 0.035
+        },
+        {
+          "gene": "FADS2",
+          "lfc": 2.53,
+          "pct1": 0.184,
+          "pct2": 0.063
+        },
+        {
+          "gene": "ACSBG1",
+          "lfc": 2.5,
+          "pct1": 0.1,
+          "pct2": 0.028
+        },
+        {
+          "gene": "DTX4",
+          "lfc": 2.4,
+          "pct1": 0.138,
+          "pct2": 0.035
+        },
+        {
+          "gene": "PC",
+          "lfc": 2.37,
+          "pct1": 0.186,
+          "pct2": 0.052
+        },
+        {
+          "gene": "VSNL1",
+          "lfc": 2.3,
+          "pct1": 0.122,
+          "pct2": 0.026
+        },
+        {
+          "gene": "LANCL2",
+          "lfc": 2.21,
+          "pct1": 0.118,
+          "pct2": 0.036
+        },
+        {
+          "gene": "SVIP",
+          "lfc": 2.19,
+          "pct1": 0.109,
+          "pct2": 0.029
+        },
+        {
+          "gene": "HMGN5",
+          "lfc": 2.18,
+          "pct1": 0.113,
+          "pct2": 0.03
+        },
+        {
+          "gene": "DSG3",
+          "lfc": 2.17,
+          "pct1": 0.213,
+          "pct2": 0.049
+        },
+        {
+          "gene": "DRD1",
+          "lfc": 2.17,
+          "pct1": 0.124,
+          "pct2": 0.031
+        },
+        {
+          "gene": "L2HGDH",
+          "lfc": 2.13,
+          "pct1": 0.124,
+          "pct2": 0.034
+        },
+        {
+          "gene": "GLIS3",
+          "lfc": 2.11,
+          "pct1": 0.137,
+          "pct2": 0.044
+        },
+        {
+          "gene": "DGKB",
+          "lfc": 2.07,
+          "pct1": 0.125,
+          "pct2": 0.031
+        },
+        {
+          "gene": "CRLF1",
+          "lfc": 2.03,
+          "pct1": 0.11,
+          "pct2": 0.033
+        },
+        {
+          "gene": "MSRB2",
+          "lfc": 2.03,
+          "pct1": 0.145,
+          "pct2": 0.042
+        },
+        {
+          "gene": "QRFPR",
+          "lfc": 2.02,
+          "pct1": 0.114,
+          "pct2": 0.03
+        },
+        {
+          "gene": "PYCR1",
+          "lfc": 1.98,
+          "pct1": 0.138,
+          "pct2": 0.042
+        },
+        {
+          "gene": "CNTN5",
+          "lfc": 1.98,
+          "pct1": 0.115,
+          "pct2": 0.034
+        },
+        {
+          "gene": "ACSM3",
+          "lfc": 1.98,
+          "pct1": 0.111,
+          "pct2": 0.034
+        }
+      ]
+    },
+    "Secretory-papillary fibroblast (WNT/NKD2+)": {
+      "annotation": "transferred label",
+      "n_cells": 490,
+      "markers": [
+        {
+          "gene": "APCDD1",
+          "lfc": 4,
+          "pct1": 0.523,
+          "pct2": 0.066
+        },
+        {
+          "gene": "COMP",
+          "lfc": 3.78,
+          "pct1": 0.213,
+          "pct2": 0.032
+        },
+        {
+          "gene": "SFRP2",
+          "lfc": 3.51,
+          "pct1": 0.483,
+          "pct2": 0.076
+        },
+        {
+          "gene": "COL1A1",
+          "lfc": 3.02,
+          "pct1": 0.971,
+          "pct2": 0.303
+        },
+        {
+          "gene": "COL1A2",
+          "lfc": 2.98,
+          "pct1": 0.91,
+          "pct2": 0.223
+        },
+        {
+          "gene": "COL3A1",
+          "lfc": 2.87,
+          "pct1": 0.861,
+          "pct2": 0.213
+        },
+        {
+          "gene": "COL6A1",
+          "lfc": 2.79,
+          "pct1": 0.838,
+          "pct2": 0.261
+        },
+        {
+          "gene": "AXIN2",
+          "lfc": 2.76,
+          "pct1": 0.187,
+          "pct2": 0.038
+        },
+        {
+          "gene": "THBS2",
+          "lfc": 2.73,
+          "pct1": 0.444,
+          "pct2": 0.09
+        },
+        {
+          "gene": "COL6A6",
+          "lfc": 2.72,
+          "pct1": 0.18,
+          "pct2": 0.041
+        },
+        {
+          "gene": "TWIST1",
+          "lfc": 2.72,
+          "pct1": 0.322,
+          "pct2": 0.071
+        },
+        {
+          "gene": "TNC",
+          "lfc": 2.59,
+          "pct1": 0.289,
+          "pct2": 0.07
+        },
+        {
+          "gene": "TWIST2",
+          "lfc": 2.58,
+          "pct1": 0.246,
+          "pct2": 0.055
+        },
+        {
+          "gene": "COL6A3",
+          "lfc": 2.53,
+          "pct1": 0.678,
+          "pct2": 0.179
+        },
+        {
+          "gene": "COL6A2",
+          "lfc": 2.5,
+          "pct1": 0.849,
+          "pct2": 0.287
+        },
+        {
+          "gene": "GAS1",
+          "lfc": 2.47,
+          "pct1": 0.245,
+          "pct2": 0.066
+        },
+        {
+          "gene": "CCN1",
+          "lfc": 2.47,
+          "pct1": 0.151,
+          "pct2": 0.037
+        },
+        {
+          "gene": "MEG3",
+          "lfc": 2.37,
+          "pct1": 0.199,
+          "pct2": 0.049
+        },
+        {
+          "gene": "COL5A1",
+          "lfc": 2.37,
+          "pct1": 0.208,
+          "pct2": 0.056
+        },
+        {
+          "gene": "PTK7",
+          "lfc": 2.3,
+          "pct1": 0.172,
+          "pct2": 0.048
+        }
+      ]
+    },
+    "Spinous keratinocyte": {
+      "annotation": "transferred label",
+      "n_cells": 471,
+      "markers": [
+        {
+          "gene": "KRT1",
+          "lfc": 5.14,
+          "pct1": 0.936,
+          "pct2": 0.091
+        },
+        {
+          "gene": "KRT10",
+          "lfc": 5.09,
+          "pct1": 0.945,
+          "pct2": 0.089
+        },
+        {
+          "gene": "KRT4",
+          "lfc": 4.3,
+          "pct1": 0.579,
+          "pct2": 0.044
+        },
+        {
+          "gene": "S100A8",
+          "lfc": 4.08,
+          "pct1": 0.498,
+          "pct2": 0.072
+        },
+        {
+          "gene": "LY6D",
+          "lfc": 4.07,
+          "pct1": 0.781,
+          "pct2": 0.066
+        },
+        {
+          "gene": "KRT16",
+          "lfc": 4.02,
+          "pct1": 0.486,
+          "pct2": 0.076
+        },
+        {
+          "gene": "KRT6A",
+          "lfc": 3.73,
+          "pct1": 0.667,
+          "pct2": 0.116
+        },
+        {
+          "gene": "PERP",
+          "lfc": 3.69,
+          "pct1": 0.832,
+          "pct2": 0.104
+        },
+        {
+          "gene": "S100A14",
+          "lfc": 3.56,
+          "pct1": 0.488,
+          "pct2": 0.054
+        },
+        {
+          "gene": "LYPD3",
+          "lfc": 3.51,
+          "pct1": 0.487,
+          "pct2": 0.051
+        },
+        {
+          "gene": "DSC3",
+          "lfc": 3.48,
+          "pct1": 0.7,
+          "pct2": 0.078
+        },
+        {
+          "gene": "SFN",
+          "lfc": 3.44,
+          "pct1": 0.619,
+          "pct2": 0.073
+        },
+        {
+          "gene": "DSP",
+          "lfc": 3.43,
+          "pct1": 0.685,
+          "pct2": 0.088
+        },
+        {
+          "gene": "S100A7",
+          "lfc": 3.41,
+          "pct1": 0.208,
+          "pct2": 0.024
+        },
+        {
+          "gene": "GJA1",
+          "lfc": 3.41,
+          "pct1": 0.489,
+          "pct2": 0.059
+        },
+        {
+          "gene": "CALML5",
+          "lfc": 3.39,
+          "pct1": 0.444,
+          "pct2": 0.073
+        },
+        {
+          "gene": "AQP3",
+          "lfc": 3.36,
+          "pct1": 0.683,
+          "pct2": 0.094
+        },
+        {
+          "gene": "S100A9",
+          "lfc": 3.35,
+          "pct1": 0.346,
+          "pct2": 0.084
+        },
+        {
+          "gene": "JUP",
+          "lfc": 3.31,
+          "pct1": 0.596,
+          "pct2": 0.084
+        },
+        {
+          "gene": "SDC1",
+          "lfc": 3.21,
+          "pct1": 0.535,
+          "pct2": 0.07
+        }
+      ]
+    },
+    "Suprabasal/activated keratinocyte (KRT6/16/17)": {
+      "annotation": "transferred label",
+      "n_cells": 88,
+      "markers": [
+        {
+          "gene": "CALML3",
+          "lfc": 4.9,
+          "pct1": 0.654,
+          "pct2": 0.043
+        },
+        {
+          "gene": "KRT17",
+          "lfc": 4.52,
+          "pct1": 0.803,
+          "pct2": 0.072
+        },
+        {
+          "gene": "S100A8",
+          "lfc": 4.34,
+          "pct1": 0.638,
+          "pct2": 0.078
+        },
+        {
+          "gene": "KRT6A",
+          "lfc": 4.34,
+          "pct1": 0.882,
+          "pct2": 0.123
+        },
+        {
+          "gene": "KRT16",
+          "lfc": 4.28,
+          "pct1": 0.362,
+          "pct2": 0.082
+        },
+        {
+          "gene": "NDUFA4L2",
+          "lfc": 4.17,
+          "pct1": 0.543,
+          "pct2": 0.039
+        },
+        {
+          "gene": "KRT6B",
+          "lfc": 4.07,
+          "pct1": 0.394,
+          "pct2": 0.031
+        },
+        {
+          "gene": "CALML5",
+          "lfc": 3.99,
+          "pct1": 0.787,
+          "pct2": 0.078
+        },
+        {
+          "gene": "S100A14",
+          "lfc": 3.95,
+          "pct1": 0.654,
+          "pct2": 0.06
+        },
+        {
+          "gene": "DACH1",
+          "lfc": 3.83,
+          "pct1": 0.346,
+          "pct2": 0.022
+        },
+        {
+          "gene": "ADGRL3",
+          "lfc": 3.82,
+          "pct1": 0.449,
+          "pct2": 0.03
+        },
+        {
+          "gene": "KRT6C",
+          "lfc": 3.8,
+          "pct1": 0.236,
+          "pct2": 0.025
+        },
+        {
+          "gene": "CLDN1",
+          "lfc": 3.66,
+          "pct1": 0.551,
+          "pct2": 0.051
+        },
+        {
+          "gene": "KRT80",
+          "lfc": 3.63,
+          "pct1": 0.417,
+          "pct2": 0.033
+        },
+        {
+          "gene": "S100A9",
+          "lfc": 3.62,
+          "pct1": 0.276,
+          "pct2": 0.088
+        },
+        {
+          "gene": "PERP",
+          "lfc": 3.57,
+          "pct1": 0.906,
+          "pct2": 0.114
+        },
+        {
+          "gene": "S100A7",
+          "lfc": 3.46,
+          "pct1": 0.228,
+          "pct2": 0.026
+        },
+        {
+          "gene": "TACSTD2",
+          "lfc": 3.41,
+          "pct1": 0.748,
+          "pct2": 0.078
+        },
+        {
+          "gene": "KRT4",
+          "lfc": 3.4,
+          "pct1": 0.472,
+          "pct2": 0.052
+        },
+        {
+          "gene": "IMPA2",
+          "lfc": 3.36,
+          "pct1": 0.488,
+          "pct2": 0.053
+        }
+      ]
+    },
+    "Tissue-resident memory CD8 T (ZNF683+)": {
+      "annotation": "transferred label",
+      "n_cells": 22,
+      "markers": [
+        {
+          "gene": "GNLY",
+          "lfc": 3.53,
+          "pct1": 0.358,
+          "pct2": 0.062
+        },
+        {
+          "gene": "KLRC3",
+          "lfc": 3.08,
+          "pct1": 0.164,
+          "pct2": 0.052
+        },
+        {
+          "gene": "CD6",
+          "lfc": 2.75,
+          "pct1": 0.239,
+          "pct2": 0.069
+        },
+        {
+          "gene": "PJA1",
+          "lfc": 2.71,
+          "pct1": 0.104,
+          "pct2": 0.041
+        },
+        {
+          "gene": "IL2RB",
+          "lfc": 2.71,
+          "pct1": 0.164,
+          "pct2": 0.042
+        },
+        {
+          "gene": "KLRK1",
+          "lfc": 2.68,
+          "pct1": 0.119,
+          "pct2": 0.039
+        },
+        {
+          "gene": "TADA3",
+          "lfc": 2.67,
+          "pct1": 0.149,
+          "pct2": 0.058
+        },
+        {
+          "gene": "TRDC",
+          "lfc": 2.66,
+          "pct1": 0.194,
+          "pct2": 0.046
+        },
+        {
+          "gene": "ORC4",
+          "lfc": 2.63,
+          "pct1": 0.104,
+          "pct2": 0.042
+        },
+        {
+          "gene": "CTSW",
+          "lfc": 2.61,
+          "pct1": 0.194,
+          "pct2": 0.039
+        },
+        {
+          "gene": "PLAC8",
+          "lfc": 2.51,
+          "pct1": 0.149,
+          "pct2": 0.056
+        },
+        {
+          "gene": "TNFSF14",
+          "lfc": 2.49,
+          "pct1": 0.164,
+          "pct2": 0.039
+        },
+        {
+          "gene": "PTGDR",
+          "lfc": 2.41,
+          "pct1": 0.134,
+          "pct2": 0.047
+        },
+        {
+          "gene": "TBX21",
+          "lfc": 2.33,
+          "pct1": 0.194,
+          "pct2": 0.051
+        },
+        {
+          "gene": "CD3E",
+          "lfc": 2.32,
+          "pct1": 0.269,
+          "pct2": 0.076
+        },
+        {
+          "gene": "GZMA",
+          "lfc": 2.31,
+          "pct1": 0.194,
+          "pct2": 0.068
+        },
+        {
+          "gene": "ALKBH2",
+          "lfc": 2.29,
+          "pct1": 0.149,
+          "pct2": 0.064
+        },
+        {
+          "gene": "PIM2",
+          "lfc": 2.17,
+          "pct1": 0.194,
+          "pct2": 0.097
+        },
+        {
+          "gene": "CD7",
+          "lfc": 2.12,
+          "pct1": 0.119,
+          "pct2": 0.05
+        },
+        {
+          "gene": "HCST",
+          "lfc": 2.03,
+          "pct1": 0.239,
+          "pct2": 0.117
+        }
+      ]
+    },
+    "cDC1": {
+      "annotation": "transferred label",
+      "n_cells": 1343,
+      "markers": [
+        {
+          "gene": "XCR1",
+          "lfc": 4.62,
+          "pct1": 0.36,
+          "pct2": 0.033
+        },
+        {
+          "gene": "CLEC9A",
+          "lfc": 4.42,
+          "pct1": 0.277,
+          "pct2": 0.031
+        },
+        {
+          "gene": "S100B",
+          "lfc": 3.02,
+          "pct1": 0.182,
+          "pct2": 0.032
+        },
+        {
+          "gene": "IRF8",
+          "lfc": 2.78,
+          "pct1": 0.486,
+          "pct2": 0.163
+        },
+        {
+          "gene": "CADM1",
+          "lfc": 2.64,
+          "pct1": 0.174,
+          "pct2": 0.041
+        },
+        {
+          "gene": "CPVL",
+          "lfc": 2.63,
+          "pct1": 0.348,
+          "pct2": 0.105
+        },
+        {
+          "gene": "BATF3",
+          "lfc": 2.16,
+          "pct1": 0.134,
+          "pct2": 0.035
+        },
+        {
+          "gene": "ANPEP",
+          "lfc": 2.05,
+          "pct1": 0.226,
+          "pct2": 0.077
+        },
+        {
+          "gene": "RGCC",
+          "lfc": 2.04,
+          "pct1": 0.3,
+          "pct2": 0.108
+        },
+        {
+          "gene": "CCND1",
+          "lfc": 2.02,
+          "pct1": 0.228,
+          "pct2": 0.079
+        },
+        {
+          "gene": "VAC14",
+          "lfc": 1.91,
+          "pct1": 0.2,
+          "pct2": 0.074
+        },
+        {
+          "gene": "CST3",
+          "lfc": 1.9,
+          "pct1": 0.677,
+          "pct2": 0.462
+        },
+        {
+          "gene": "ID2",
+          "lfc": 1.83,
+          "pct1": 0.276,
+          "pct2": 0.108
+        },
+        {
+          "gene": "CD226",
+          "lfc": 1.82,
+          "pct1": 0.14,
+          "pct2": 0.052
+        },
+        {
+          "gene": "BCL6",
+          "lfc": 1.76,
+          "pct1": 0.173,
+          "pct2": 0.071
+        },
+        {
+          "gene": "SHTN1",
+          "lfc": 1.66,
+          "pct1": 0.18,
+          "pct2": 0.077
+        },
+        {
+          "gene": "CD93",
+          "lfc": 1.65,
+          "pct1": 0.151,
+          "pct2": 0.052
+        },
+        {
+          "gene": "CPNE3",
+          "lfc": 1.59,
+          "pct1": 0.127,
+          "pct2": 0.051
+        },
+        {
+          "gene": "PTPRE",
+          "lfc": 1.59,
+          "pct1": 0.221,
+          "pct2": 0.099
+        },
+        {
+          "gene": "ADAM19",
+          "lfc": 1.54,
+          "pct1": 0.16,
+          "pct2": 0.08
+        }
+      ]
+    },
+    "cDC2": {
+      "annotation": "transferred label",
+      "n_cells": 3108,
+      "markers": [
+        {
+          "gene": "CD1C",
+          "lfc": 3.09,
+          "pct1": 0.133,
+          "pct2": 0.028
+        },
+        {
+          "gene": "CD1A",
+          "lfc": 2.35,
+          "pct1": 0.146,
+          "pct2": 0.053
+        },
+        {
+          "gene": "FCER1A",
+          "lfc": 2.31,
+          "pct1": 0.112,
+          "pct2": 0.034
+        },
+        {
+          "gene": "CD1B",
+          "lfc": 2.31,
+          "pct1": 0.112,
+          "pct2": 0.034
+        },
+        {
+          "gene": "CLEC10A",
+          "lfc": 1.96,
+          "pct1": 0.193,
+          "pct2": 0.083
+        },
+        {
+          "gene": "FCN1",
+          "lfc": 1.45,
+          "pct1": 0.115,
+          "pct2": 0.055
+        },
+        {
+          "gene": "LGALS2",
+          "lfc": 1.38,
+          "pct1": 0.148,
+          "pct2": 0.086
+        },
+        {
+          "gene": "CCL17",
+          "lfc": 1.37,
+          "pct1": 0.143,
+          "pct2": 0.074
+        },
+        {
+          "gene": "LST1",
+          "lfc": 1.35,
+          "pct1": 0.158,
+          "pct2": 0.093
+        },
+        {
+          "gene": "RTN1",
+          "lfc": 1.3,
+          "pct1": 0.104,
+          "pct2": 0.052
+        },
+        {
+          "gene": "MNDA",
+          "lfc": 1.28,
+          "pct1": 0.133,
+          "pct2": 0.07
+        },
+        {
+          "gene": "CPVL",
+          "lfc": 1.27,
+          "pct1": 0.196,
+          "pct2": 0.109
+        },
+        {
+          "gene": "JAML",
+          "lfc": 1.18,
+          "pct1": 0.195,
+          "pct2": 0.117
+        },
+        {
+          "gene": "CIITA",
+          "lfc": 1.05,
+          "pct1": 0.236,
+          "pct2": 0.163
+        },
+        {
+          "gene": "ITGAX",
+          "lfc": 1.05,
+          "pct1": 0.162,
+          "pct2": 0.111
+        },
+        {
+          "gene": "FGL2",
+          "lfc": 1.04,
+          "pct1": 0.253,
+          "pct2": 0.161
+        },
+        {
+          "gene": "ITGAM",
+          "lfc": 0.96,
+          "pct1": 0.108,
+          "pct2": 0.074
+        },
+        {
+          "gene": "COTL1",
+          "lfc": 0.95,
+          "pct1": 0.373,
+          "pct2": 0.272
+        },
+        {
+          "gene": "PAK1",
+          "lfc": 0.93,
+          "pct1": 0.114,
+          "pct2": 0.084
+        },
+        {
+          "gene": "SPI1",
+          "lfc": 0.93,
+          "pct1": 0.254,
+          "pct2": 0.183
+        }
+      ]
+    },
+    "mregDC (mature migratory DC)": {
+      "annotation": "transferred label",
+      "n_cells": 319,
+      "markers": [
+        {
+          "gene": "LAMP3",
+          "lfc": 4.62,
+          "pct1": 0.629,
+          "pct2": 0.043
+        },
+        {
+          "gene": "CCL22",
+          "lfc": 4.56,
+          "pct1": 0.292,
+          "pct2": 0.027
+        },
+        {
+          "gene": "CCR7",
+          "lfc": 3.95,
+          "pct1": 0.377,
+          "pct2": 0.035
+        },
+        {
+          "gene": "CD83",
+          "lfc": 3.69,
+          "pct1": 0.525,
+          "pct2": 0.08
+        },
+        {
+          "gene": "BIRC3",
+          "lfc": 3.48,
+          "pct1": 0.464,
+          "pct2": 0.064
+        },
+        {
+          "gene": "CCL17",
+          "lfc": 3.48,
+          "pct1": 0.36,
+          "pct2": 0.071
+        },
+        {
+          "gene": "IRF4",
+          "lfc": 3.35,
+          "pct1": 0.347,
+          "pct2": 0.042
+        },
+        {
+          "gene": "CSF2RA",
+          "lfc": 3.31,
+          "pct1": 0.534,
+          "pct2": 0.097
+        },
+        {
+          "gene": "RGS1",
+          "lfc": 3.06,
+          "pct1": 0.359,
+          "pct2": 0.056
+        },
+        {
+          "gene": "MARCKSL1",
+          "lfc": 3.04,
+          "pct1": 0.51,
+          "pct2": 0.092
+        },
+        {
+          "gene": "KDM2B",
+          "lfc": 3.01,
+          "pct1": 0.432,
+          "pct2": 0.082
+        },
+        {
+          "gene": "DUSP5",
+          "lfc": 2.93,
+          "pct1": 0.264,
+          "pct2": 0.039
+        },
+        {
+          "gene": "SAMSN1",
+          "lfc": 2.77,
+          "pct1": 0.275,
+          "pct2": 0.054
+        },
+        {
+          "gene": "MAP3K14",
+          "lfc": 2.76,
+          "pct1": 0.317,
+          "pct2": 0.061
+        },
+        {
+          "gene": "TRAF1",
+          "lfc": 2.75,
+          "pct1": 0.397,
+          "pct2": 0.071
+        },
+        {
+          "gene": "CDKN1A",
+          "lfc": 2.66,
+          "pct1": 0.446,
+          "pct2": 0.109
+        },
+        {
+          "gene": "KIF2A",
+          "lfc": 2.61,
+          "pct1": 0.361,
+          "pct2": 0.068
+        },
+        {
+          "gene": "IDO1",
+          "lfc": 2.46,
+          "pct1": 0.232,
+          "pct2": 0.048
+        },
+        {
+          "gene": "DAPP1",
+          "lfc": 2.44,
+          "pct1": 0.242,
+          "pct2": 0.051
+        },
+        {
+          "gene": "UVRAG",
+          "lfc": 2.38,
+          "pct1": 0.26,
+          "pct2": 0.068
+        }
+      ]
+    }
+  }
+}
